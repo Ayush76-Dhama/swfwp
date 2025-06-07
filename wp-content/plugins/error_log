@@ -1,0 +1,24 @@
+[10-Jan-2025 01:07:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php on line 69
+[01-Feb-2025 18:00:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php on line 69
+[09-Feb-2025 19:54:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php on line 69
+[07-Apr-2025 10:41:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php on line 69
+[15-Apr-2025 02:41:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php on line 69
+[26-Apr-2025 11:41:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/plugins/hello.php on line 69

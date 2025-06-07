@@ -1,0 +1,270 @@
+[21-Mar-2025 11:23:51 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/template-home.php on line 514
+[24-May-2025 07:00:46 UTC] PHP Warning:  require_once(/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/inc/form-handlers.php): failed to open stream: No such file or directory in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/functions.php on line 880
+[24-May-2025 07:00:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/inc/form-handlers.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/functions.php on line 880
+[24-May-2025 07:00:46 UTC] PHP Warning:  require_once(/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/inc/form-handlers.php): failed to open stream: No such file or directory in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/functions.php on line 880
+[24-May-2025 07:00:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/inc/form-handlers.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/functions.php on line 880
+[29-May-2025 15:31:58 UTC] SMTP Configuration:
+[29-May-2025 15:31:58 UTC] Host: smtpout.secureserver.net
+[29-May-2025 15:31:58 UTC] Port: 80
+[29-May-2025 15:31:58 UTC] Security: ssl
+[29-May-2025 15:31:58 UTC] Username: info@shewings.com
+[29-May-2025 15:31:58 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 15:32:59 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 15:32:59 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 15:32:59 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 15:32:59 UTC] Mail Error Details:
+[29-May-2025 15:32:59 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 15:32:59 UTC] Error Code: wp_mail_failed
+[29-May-2025 15:32:59 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => [shewingsfoundation] Please moderate: "Hello world!"
+    [message] => A new comment on the post "Hello world!" is waiting for your approval
+https://shewingsfoundation.com/hello-world/
+
+Author: Juliet96 (IP address: 182.191.76.156, 182.191.76.156)
+Email: Juliet96@gmail.com
+URL: 
+Comment: 
+<a href="https://shorturl.fm/6539m" rel="nofollow ugc">https://shorturl.fm/6539m</a>
+
+Approve it: https://shewingsfoundation.com/wp-admin/comment.php?action=approve&c=48#wpbody-content
+Trash it: https://shewingsfoundation.com/wp-admin/comment.php?action=trash&c=48#wpbody-content
+Spam it: https://shewingsfoundation.com/wp-admin/comment.php?action=spam&c=48#wpbody-content
+Currently 47 comments are waiting for approval. Please visit the moderation panel:
+https://shewingsfoundation.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[31-May-2025 00:26:01 UTC] SMTP Configuration:
+[31-May-2025 00:26:01 UTC] Host: smtpout.secureserver.net
+[31-May-2025 00:26:01 UTC] Port: 80
+[31-May-2025 00:26:01 UTC] Security: ssl
+[31-May-2025 00:26:01 UTC] Username: info@shewings.com
+[31-May-2025 00:26:01 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[31-May-2025 00:27:01 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[31-May-2025 00:27:01 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[31-May-2025 00:27:01 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[31-May-2025 00:27:01 UTC] Mail Error Details:
+[31-May-2025 00:27:01 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[31-May-2025 00:27:01 UTC] Error Code: wp_mail_failed
+[31-May-2025 00:27:01 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => [shewingsfoundation] Please moderate: "Hello world!"
+    [message] => A new comment on the post "Hello world!" is waiting for your approval
+https://shewingsfoundation.com/hello-world/
+
+Author: Abbie4242 (IP address: 179.2.207.76, 179.2.207.76)
+Email: Abbie4242@gmail.com
+URL: 
+Comment: 
+<a href="https://shorturl.fm/0EtO1" rel="nofollow ugc">https://shorturl.fm/0EtO1</a>
+
+Approve it: https://shewingsfoundation.com/wp-admin/comment.php?action=approve&c=49#wpbody-content
+Trash it: https://shewingsfoundation.com/wp-admin/comment.php?action=trash&c=49#wpbody-content
+Spam it: https://shewingsfoundation.com/wp-admin/comment.php?action=spam&c=49#wpbody-content
+Currently 48 comments are waiting for approval. Please visit the moderation panel:
+https://shewingsfoundation.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[31-May-2025 09:57:42 UTC] SMTP Configuration:
+[31-May-2025 09:57:42 UTC] Host: smtpout.secureserver.net
+[31-May-2025 09:57:42 UTC] Port: 80
+[31-May-2025 09:57:42 UTC] Security: ssl
+[31-May-2025 09:57:42 UTC] Username: info@shewings.com
+[31-May-2025 09:57:42 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[31-May-2025 09:58:42 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[31-May-2025 09:58:42 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[31-May-2025 09:58:42 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[31-May-2025 09:58:42 UTC] Mail Error Details:
+[31-May-2025 09:58:42 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[31-May-2025 09:58:42 UTC] Error Code: wp_mail_failed
+[31-May-2025 09:58:42 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => [shewingsfoundation] Please moderate: "Hello world!"
+    [message] => A new comment on the post "Hello world!" is waiting for your approval
+https://shewingsfoundation.com/hello-world/
+
+Author: Jayden3629 (IP address: 176.44.126.107, 176.44.126.107)
+Email: Jayden3629@gmail.com
+URL: 
+Comment: 
+<a href="https://shorturl.fm/I3T8M" rel="nofollow ugc">https://shorturl.fm/I3T8M</a>
+
+Approve it: https://shewingsfoundation.com/wp-admin/comment.php?action=approve&c=50#wpbody-content
+Trash it: https://shewingsfoundation.com/wp-admin/comment.php?action=trash&c=50#wpbody-content
+Spam it: https://shewingsfoundation.com/wp-admin/comment.php?action=spam&c=50#wpbody-content
+Currently 49 comments are waiting for approval. Please visit the moderation panel:
+https://shewingsfoundation.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[01-Jun-2025 04:40:14 UTC] SMTP Configuration:
+[01-Jun-2025 04:40:14 UTC] Host: smtpout.secureserver.net
+[01-Jun-2025 04:40:14 UTC] Port: 80
+[01-Jun-2025 04:40:14 UTC] Security: ssl
+[01-Jun-2025 04:40:14 UTC] Username: info@shewings.com
+[01-Jun-2025 04:40:14 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[01-Jun-2025 04:41:14 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[01-Jun-2025 04:41:14 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[01-Jun-2025 04:41:14 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[01-Jun-2025 04:41:14 UTC] Mail Error Details:
+[01-Jun-2025 04:41:14 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[01-Jun-2025 04:41:14 UTC] Error Code: wp_mail_failed
+[01-Jun-2025 04:41:14 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => [shewingsfoundation] Please moderate: "Hello world!"
+    [message] => A new comment on the post "Hello world!" is waiting for your approval
+https://shewingsfoundation.com/hello-world/
+
+Author: Bruce2740 (IP address: 136.158.122.1, 1.122.158.136.convergeict.com)
+Email: Bruce2740@gmail.com
+URL: 
+Comment: 
+<a href="https://shorturl.fm/0oNbA" rel="nofollow ugc">https://shorturl.fm/0oNbA</a>
+
+Approve it: https://shewingsfoundation.com/wp-admin/comment.php?action=approve&c=51#wpbody-content
+Trash it: https://shewingsfoundation.com/wp-admin/comment.php?action=trash&c=51#wpbody-content
+Spam it: https://shewingsfoundation.com/wp-admin/comment.php?action=spam&c=51#wpbody-content
+Currently 50 comments are waiting for approval. Please visit the moderation panel:
+https://shewingsfoundation.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[02-Jun-2025 10:03:30 UTC] SMTP Configuration:
+[02-Jun-2025 10:03:30 UTC] Host: smtpout.secureserver.net
+[02-Jun-2025 10:03:30 UTC] Port: 80
+[02-Jun-2025 10:03:30 UTC] Security: ssl
+[02-Jun-2025 10:03:30 UTC] Username: info@shewings.com
+[02-Jun-2025 10:03:30 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[02-Jun-2025 10:04:30 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[02-Jun-2025 10:04:30 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[02-Jun-2025 10:04:30 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[02-Jun-2025 10:04:30 UTC] Mail Error Details:
+[02-Jun-2025 10:04:30 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[02-Jun-2025 10:04:30 UTC] Error Code: wp_mail_failed
+[02-Jun-2025 10:04:30 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => [shewingsfoundation] Please moderate: "Hello world!"
+    [message] => A new comment on the post "Hello world!" is waiting for your approval
+https://shewingsfoundation.com/hello-world/
+
+Author: Alma566 (IP address: 45.41.106.85, 45.41.106.85)
+Email: Alma566@gmail.com
+URL: 
+Comment: 
+<a href="https://shorturl.fm/ypgnt" rel="nofollow ugc">https://shorturl.fm/ypgnt</a>
+
+Approve it: https://shewingsfoundation.com/wp-admin/comment.php?action=approve&c=52#wpbody-content
+Trash it: https://shewingsfoundation.com/wp-admin/comment.php?action=trash&c=52#wpbody-content
+Spam it: https://shewingsfoundation.com/wp-admin/comment.php?action=spam&c=52#wpbody-content
+Currently 51 comments are waiting for approval. Please visit the moderation panel:
+https://shewingsfoundation.com/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+

@@ -1,0 +1,24 @@
+[18-Nov-2024 15:21:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/functions.php on line 145
+[30-Jan-2025 07:08:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/functions.php on line 145
+[31-Jan-2025 07:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/functions.php on line 145
+[12-Feb-2025 17:11:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/functions.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/functions.php on line 145
+[08-Apr-2025 03:13:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/404.php on line 10
+[15-Apr-2025 00:38:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/twentytwenty/404.php on line 10

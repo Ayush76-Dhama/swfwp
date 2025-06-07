@@ -1,0 +1,1052 @@
+[19-Mar-2025 08:03:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/index.php on line 17
+[23-May-2025 08:24:34 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SELECT COUNT(*) FROM wp_contact_submissions WHERE email = 'kameshbhopal@gmail.com' AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)
+[23-May-2025 08:24:34 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_submissions`
+[23-May-2025 08:27:08 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SELECT COUNT(*) FROM wp_contact_submissions WHERE email = 'kameshbhopal@gmail.com' AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)
+[23-May-2025 08:27:08 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_submissions`
+[23-May-2025 08:36:48 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SELECT COUNT(*) FROM wp_contact_submissions WHERE email = 'kameshbhopal@gmail.com' AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)
+[23-May-2025 08:36:48 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_submissions`
+[23-May-2025 08:38:42 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SELECT COUNT(*) FROM wp_contact_submissions WHERE email = 'nehasonowal1008@gmail.com' AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)
+[23-May-2025 08:38:42 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_submissions`
+[23-May-2025 09:08:30 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SELECT COUNT(*) FROM wp_contact_submissions WHERE email = 'nehasonowal1008@gmail.com' AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)
+[23-May-2025 09:08:30 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_submissions`
+[23-May-2025 09:13:12 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('kamlesh', 'kameshbhopal@gmail.com', '12345678990', 'dfhgfhei', 'nm', '2025-05-23 09:13:12')
+[24-May-2025 07:00:50 UTC] PHP Warning:  require_once(/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/inc/form-handlers.php): failed to open stream: No such file or directory in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/functions.php on line 880
+[24-May-2025 07:00:50 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/inc/form-handlers.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/functions.php on line 880
+[24-May-2025 07:00:53 UTC] PHP Warning:  require_once(/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/inc/form-handlers.php): failed to open stream: No such file or directory in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/functions.php on line 880
+[24-May-2025 07:00:53 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/inc/form-handlers.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/functions.php on line 880
+[24-May-2025 10:52:58 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush', 'ayushdhama76@gmail.com', '7292001010', 'cghvhg', 'mnm,.', '2025-05-24 10:52:58')
+[26-May-2025 04:44:48 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('neha sonowal', 'nehasonowal1008@gmail.com', '9650822740', 'ghjk', 'gfhjkl;', '2025-05-26 04:44:48')
+[26-May-2025 06:05:59 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush', 'ayushdhama50@gmail.com', '+918938827779', 'fghdd', 'rheshhtwh', '2025-05-26 06:05:59')
+[26-May-2025 08:11:41 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ashutosh', 'rathoreashutosh37@gmail.com', '8392877813', 'cxvbhjkml', 'sdfgb', '2025-05-26 08:11:41')
+[26-May-2025 11:02:43 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('kamlesh', 'nehasonowal1008@gmail.com', '9650822740', 'dfhgfhei', 'xfcgv hbnjm,', '2025-05-26 11:02:43')
+[26-May-2025 12:13:35 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('test2', 'test3@gmail.com', '9650822740', 'dfgh', 'dfghj', '2025-05-26 12:13:35')
+[28-May-2025 12:37:52 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush', 'ayushdhama76@gmail.com', '+918938827779', 'For Web Developer', 'cREATE', '2025-05-28 12:37:52')
+[29-May-2025 04:29:22 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush', 'ayushdhama50@gmail.com', '+918938827779', 'For ngo foundation', 'Welcome to  Foundation', '2025-05-29 04:29:22')
+[29-May-2025 04:29:43 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush Dhama', 'ayushdhama50@gmail.com', '+918938827779', 'For ngo foundation', 'Welcome to  Foundation', '2025-05-29 04:29:43')
+[29-May-2025 04:29:46 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush Dhama', 'ayushdhama50@gmail.com', '+918938827779', 'For ngo foundation', 'Welcome to  Foundation', '2025-05-29 04:29:46')
+[29-May-2025 04:29:47 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush Dhama', 'ayushdhama50@gmail.com', '+918938827779', 'For ngo foundation', 'Welcome to  Foundation', '2025-05-29 04:29:47')
+[29-May-2025 04:29:49 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush Dhama', 'ayushdhama50@gmail.com', '+918938827779', 'For ngo foundation', 'Welcome to  Foundation', '2025-05-29 04:29:49')
+[29-May-2025 04:30:04 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('Ayush Dhama', 'ayushdhama50@gmail.com', '+918938827779', 'For ngo foundation', 'Welcome to  Foundation', '2025-05-29 04:30:04')
+[29-May-2025 04:30:52 UTC] WordPress database error Duplicate entry '0' for key 'PRIMARY' for query INSERT INTO `wp_contact_submissions` (`first_name`, `email`, `phone`, `subject`, `message`, `submitted_at`) VALUES ('kamlesh', 'kameshbhopal@gmail.com', '09650822740', 'dfghjkl', 'dfghj', '2025-05-29 04:30:52')
+[29-May-2025 05:03:49 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SELECT COUNT(*) FROM wp_contact_submissions WHERE email = 'bhagat@gmail.com' AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)
+[29-May-2025 05:03:49 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_submissions`
+[29-May-2025 05:04:11 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SELECT COUNT(*) FROM wp_contact_submissions WHERE email = 'bhgat@gmail.com' AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)
+[29-May-2025 05:04:11 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_submissions`
+[29-May-2025 05:10:22 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SELECT COUNT(*) FROM wp_contact_submissions WHERE email = 'nehasonowal1008@gmail.com' AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)
+[29-May-2025 05:10:22 UTC] WordPress database error Table 'swfdb.wp_contact_submissions' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_submissions`
+[29-May-2025 05:11:08 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 05:11:08 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 05:11:08 UTC] Database connection status: Connected
+[29-May-2025 05:11:08 UTC] Table does not exist, attempting to create: wp_contact_submissions
+[29-May-2025 05:11:08 UTC] Table creation result: Array
+(
+    [wp_contact_submissions] => Created table wp_contact_submissions
+)
+
+[29-May-2025 05:11:08 UTC] Attempting to insert data: Array
+(
+    [first_name] => kamlesh
+    [email] => nehasonowal1008@gmail.com
+    [phone] => 09650822740
+    [subject] => ghjk
+    [message] => wertyuio
+    [submitted_at] => 2025-05-29 05:11:08
+)
+
+[29-May-2025 05:11:08 UTC] Successfully inserted data with ID: 1
+[29-May-2025 05:17:27 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 05:17:27 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 05:17:27 UTC] Database connection status: Connected
+[29-May-2025 05:17:27 UTC] Attempting to insert data: Array
+(
+    [first_name] => beetu sonowal
+    [email] => nehasonowal1008@gmail.com
+    [phone] => 1233456778
+    [subject] => Nags
+    [message] => sdfghj
+    [submitted_at] => 2025-05-29 05:17:27
+)
+
+[29-May-2025 05:17:27 UTC] Successfully inserted data with ID: 2
+[29-May-2025 05:22:45 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 05:22:45 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 05:22:45 UTC] Database connection status: Connected
+[29-May-2025 05:22:45 UTC] Attempting to insert data: Array
+(
+    [first_name] => kamlesh
+    [email] => kameshbhopal@gmail.com
+    [phone] => 1233456778
+    [subject] => bhagke
+    [message] => dhundhundhundhunh
+    [submitted_at] => 2025-05-29 05:22:45
+)
+
+[29-May-2025 05:22:45 UTC] Successfully inserted data with ID: 3
+[29-May-2025 05:33:19 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 05:33:19 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 05:33:19 UTC] Database connection status: Connected
+[29-May-2025 05:33:19 UTC] Attempting to insert data: Array
+(
+    [first_name] => Kaushal
+    [email] => kbasera7@gmail.com
+    [phone] => 9315497753
+    [subject] => Learning
+    [message] => I want to be a part of the movement shewings stands for and to help and educate myself and others
+    [submitted_at] => 2025-05-29 05:33:19
+)
+
+[29-May-2025 05:33:19 UTC] Successfully inserted data with ID: 4
+[29-May-2025 06:28:32 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 06:28:32 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 06:28:32 UTC] Database connection status: Connected
+[29-May-2025 06:28:32 UTC] Attempting to insert data: Array
+(
+    [first_name] => Ayush
+    [email] => ayushdhama76@gmail.com
+    [phone] => +918938827779
+    [subject] => Donation
+    [message] => Hello Foundation
+    [submitted_at] => 2025-05-29 06:28:32
+)
+
+[29-May-2025 06:28:32 UTC] Successfully inserted data with ID: 5
+[29-May-2025 06:58:33 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 06:58:33 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 06:58:33 UTC] Database connection status: Connected
+[29-May-2025 06:58:33 UTC] Attempting to insert data: Array
+(
+    [first_name] => kamlesh
+    [email] => rathoreashutosh37@gmail.com
+    [phone] => 09650822740
+    [subject] => dfhgfhei
+    [message] => dfghj
+    [submitted_at] => 2025-05-29 06:58:33
+)
+
+[29-May-2025 06:58:33 UTC] Successfully inserted data with ID: 6
+[29-May-2025 07:02:57 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 07:02:57 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 07:02:57 UTC] Database connection status: Connected
+[29-May-2025 07:02:57 UTC] Attempting to insert data: Array
+(
+    [first_name] => kamlesh
+    [email] => rathoreashutosh37@gmail.com
+    [phone] => 9650822740
+    [subject] => dfhgfhei
+    [message] => guisehfuoeivje
+    [submitted_at] => 2025-05-29 07:02:57
+)
+
+[29-May-2025 07:02:57 UTC] Successfully inserted data with ID: 7
+[29-May-2025 07:07:02 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 07:07:02 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 07:07:02 UTC] Database connection status: Connected
+[29-May-2025 07:07:02 UTC] Attempting to insert data: Array
+(
+    [first_name] => home
+    [email] => rathoreashutosh37@gmail.com
+    [phone] => 9650822740
+    [subject] => dfhgfhei
+    [message] => vbnm
+    [submitted_at] => 2025-05-29 07:07:02
+)
+
+[29-May-2025 07:07:02 UTC] Successfully inserted data with ID: 8
+[29-May-2025 07:10:36 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 07:10:36 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 07:10:36 UTC] Database connection status: Connected
+[29-May-2025 07:10:36 UTC] Attempting to insert data: Array
+(
+    [first_name] => neha sonowal
+    [email] => nehasonowal1008@gmail.com
+    [phone] => 9650822740
+    [subject] => dfhgfhei
+    [message] => sdfghj
+    [submitted_at] => 2025-05-29 07:10:36
+)
+
+[29-May-2025 07:10:36 UTC] Successfully inserted data with ID: 9
+[29-May-2025 07:14:47 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 07:14:47 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 07:14:47 UTC] Database connection status: Connected
+[29-May-2025 07:14:47 UTC] Attempting to insert data: Array
+(
+    [first_name] => kamlesh
+    [email] => nehasonowal1008@gmail.com
+    [phone] => 09650822740
+    [subject] => dfhgfhei
+    [message] => sdfghjk
+    [submitted_at] => 2025-05-29 07:14:47
+)
+
+[29-May-2025 07:14:47 UTC] Successfully inserted data with ID: 10
+[29-May-2025 07:22:03 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 07:22:03 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 07:22:03 UTC] Database connection status: Connected
+[29-May-2025 07:22:03 UTC] Attempting to insert data: Array
+(
+    [first_name] => jethalal
+    [email] => nehasonowal1008@gmail.com
+    [phone] => 9650822740
+    [subject] => ghjk
+    [message] => sdfgh
+    [submitted_at] => 2025-05-29 07:22:03
+)
+
+[29-May-2025 07:22:03 UTC] Successfully inserted data with ID: 11
+[29-May-2025 08:34:15 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 08:34:15 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 08:34:15 UTC] Database connection status: Connected
+[29-May-2025 08:34:15 UTC] Attempting to insert data: Array
+(
+    [first_name] => kamlesh
+    [email] => nehasonowal1008@gmail.com
+    [phone] => 9650822740
+    [subject] => dfhgfhei
+    [message] => assdddfghhhh
+    [submitted_at] => 2025-05-29 08:34:15
+)
+
+[29-May-2025 08:34:15 UTC] Successfully inserted data with ID: 12
+[29-May-2025 08:34:15 UTC] SMTP Configuration:
+[29-May-2025 08:34:15 UTC] Host: smtpout.secureserver.net
+[29-May-2025 08:34:15 UTC] Port: 80
+[29-May-2025 08:34:15 UTC] Security: ssl
+[29-May-2025 08:34:15 UTC] Username: info@shewings.com
+[29-May-2025 08:34:15 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 08:35:15 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 08:35:15 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 08:35:15 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:35:15 UTC] Mail Error Details:
+[29-May-2025 08:35:15 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:35:15 UTC] Error Code: wp_mail_failed
+[29-May-2025 08:35:15 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: dfhgfhei
+    [message] => A new contact form submission has been received:
+
+Name: kamlesh
+Email: nehasonowal1008@gmail.com
+Phone: 9650822740
+Subject: dfhgfhei
+Message:
+assdddfghhhh
+
+Submitted at: 2025-05-29 08:34:15
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 08:45:26 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 08:45:26 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 08:45:26 UTC] Database connection status: Connected
+[29-May-2025 08:45:26 UTC] Attempting to insert data: Array
+(
+    [first_name] => Ashutosh
+    [email] => rathoreashutosh37@gmail.com
+    [phone] => 8392877813
+    [subject] => cxvbhjkml
+    [message] => ,sdfghjkk
+    [submitted_at] => 2025-05-29 08:45:26
+)
+
+[29-May-2025 08:45:26 UTC] Successfully inserted data with ID: 13
+[29-May-2025 08:45:26 UTC] SMTP Configuration:
+[29-May-2025 08:45:26 UTC] Host: smtpout.secureserver.net
+[29-May-2025 08:45:26 UTC] Port: 80
+[29-May-2025 08:45:26 UTC] Security: ssl
+[29-May-2025 08:45:26 UTC] Username: info@shewings.com
+[29-May-2025 08:45:26 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 08:46:26 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 08:46:26 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 08:46:26 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:46:26 UTC] Mail Error Details:
+[29-May-2025 08:46:26 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:46:26 UTC] Error Code: wp_mail_failed
+[29-May-2025 08:46:26 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: cxvbhjkml
+    [message] => A new contact form submission has been received:
+
+Name: Ashutosh
+Email: rathoreashutosh37@gmail.com
+Phone: 8392877813
+Subject: cxvbhjkml
+Message:
+,sdfghjkk
+
+Submitted at: 2025-05-29 08:45:26
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 09:04:37 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 09:04:37 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 09:04:37 UTC] Database connection status: Connected
+[29-May-2025 09:04:37 UTC] Attempting to insert data: Array
+(
+    [first_name] => badru
+    [email] => badru@gmail.com
+    [phone] => 9145678907
+    [subject] => Web
+    [message] => bhxdsglui
+    [submitted_at] => 2025-05-29 09:04:37
+)
+
+[29-May-2025 09:04:37 UTC] Successfully inserted data with ID: 14
+[29-May-2025 09:04:37 UTC] SMTP Configuration:
+[29-May-2025 09:04:37 UTC] Host: smtpout.secureserver.net
+[29-May-2025 09:04:37 UTC] Port: 80
+[29-May-2025 09:04:37 UTC] Security: ssl
+[29-May-2025 09:04:37 UTC] Username: info@shewings.com
+[29-May-2025 09:04:37 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 09:05:37 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 09:05:37 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 09:05:37 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 09:05:37 UTC] Mail Error Details:
+[29-May-2025 09:05:37 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 09:05:37 UTC] Error Code: wp_mail_failed
+[29-May-2025 09:05:37 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: Web
+    [message] => A new contact form submission has been received:
+
+Name: badru
+Email: badru@gmail.com
+Phone: 9145678907
+Subject: Web
+Message:
+bhxdsglui
+
+Submitted at: 2025-05-29 09:04:37
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 10:15:05 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 10:15:05 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 10:15:05 UTC] Database connection status: Connected
+[29-May-2025 10:15:05 UTC] Attempting to insert data: Array
+(
+    [first_name] => Ayush
+    [email] => ayushdhama76@gmail.com
+    [phone] => +918938827779
+    [subject] => For Web Developer
+    [message] => sfw
+    [submitted_at] => 2025-05-29 10:15:05
+)
+
+[29-May-2025 10:15:05 UTC] Successfully inserted data with ID: 15
+[29-May-2025 10:15:05 UTC] SMTP Configuration:
+[29-May-2025 10:15:05 UTC] Host: smtpout.secureserver.net
+[29-May-2025 10:15:05 UTC] Port: 80
+[29-May-2025 10:15:05 UTC] Security: ssl
+[29-May-2025 10:15:05 UTC] Username: info@shewings.com
+[29-May-2025 10:15:05 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 10:16:05 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 10:16:05 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 10:16:05 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 10:16:05 UTC] Mail Error Details:
+[29-May-2025 10:16:05 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 10:16:05 UTC] Error Code: wp_mail_failed
+[29-May-2025 10:16:05 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: For Web Developer
+    [message] => A new contact form submission has been received:
+
+Name: Ayush
+Email: ayushdhama76@gmail.com
+Phone: +918938827779
+Subject: For Web Developer
+Message:
+sfw
+
+Submitted at: 2025-05-29 10:15:05
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 10:52:11 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[29-May-2025 10:52:11 UTC] Attempting to use table: wp_contact_submissions
+[29-May-2025 10:52:11 UTC] Database connection status: Connected
+[29-May-2025 10:52:11 UTC] Attempting to insert data: Array
+(
+    [first_name] => monu
+    [email] => nehasonowal1008@gmail.com
+    [phone] => 9650822740
+    [subject] => dfhgfhei
+    [message] => dhjfedlef
+    [submitted_at] => 2025-05-29 10:52:11
+)
+
+[29-May-2025 10:52:11 UTC] Successfully inserted data with ID: 16
+[29-May-2025 10:52:11 UTC] SMTP Configuration:
+[29-May-2025 10:52:11 UTC] Host: smtpout.secureserver.net
+[29-May-2025 10:52:11 UTC] Port: 80
+[29-May-2025 10:52:11 UTC] Security: ssl
+[29-May-2025 10:52:11 UTC] Username: info@shewings.com
+[29-May-2025 10:52:11 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 10:53:11 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 10:53:11 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 10:53:11 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 10:53:11 UTC] Mail Error Details:
+[29-May-2025 10:53:11 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 10:53:11 UTC] Error Code: wp_mail_failed
+[29-May-2025 10:53:11 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: dfhgfhei
+    [message] => A new contact form submission has been received:
+
+Name: monu
+Email: nehasonowal1008@gmail.com
+Phone: 9650822740
+Subject: dfhgfhei
+Message:
+dhjfedlef
+
+Submitted at: 2025-05-29 10:52:11
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[31-May-2025 03:39:59 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[31-May-2025 03:39:59 UTC] PHP Notice:  Undefined index: message in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 29
+[31-May-2025 03:39:59 UTC] Attempting to use table: wp_contact_submissions
+[31-May-2025 03:39:59 UTC] Database connection status: Connected
+[31-May-2025 03:39:59 UTC] Attempting to insert data: Array
+(
+    [first_name] => BveqkBsfn
+    [email] => skyinnwv2006@gmail.com
+    [phone] => 8569670635
+    [subject] => kkptIzxMFHgb
+    [message] => 
+    [submitted_at] => 2025-05-31 03:39:59
+)
+
+[31-May-2025 03:39:59 UTC] Successfully inserted data with ID: 17
+[31-May-2025 03:39:59 UTC] SMTP Configuration:
+[31-May-2025 03:39:59 UTC] Host: smtpout.secureserver.net
+[31-May-2025 03:39:59 UTC] Port: 80
+[31-May-2025 03:39:59 UTC] Security: ssl
+[31-May-2025 03:39:59 UTC] Username: info@shewings.com
+[31-May-2025 03:39:59 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[31-May-2025 03:40:20 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[31-May-2025 03:40:20 UTC] PHP Notice:  Undefined index: first_name in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 25
+[31-May-2025 03:40:20 UTC] PHP Notice:  Undefined index: email in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 26
+[31-May-2025 03:40:20 UTC] PHP Notice:  Undefined index: phone in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 27
+[31-May-2025 03:40:20 UTC] PHP Notice:  Undefined index: subject in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 28
+[31-May-2025 03:40:20 UTC] PHP Notice:  Undefined index: message in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 29
+[31-May-2025 03:40:20 UTC] Attempting to use table: wp_contact_submissions
+[31-May-2025 03:40:20 UTC] Database connection status: Connected
+[31-May-2025 03:40:20 UTC] Attempting to insert data: Array
+(
+    [first_name] => 
+    [email] => 
+    [phone] => 
+    [subject] => 
+    [message] => 
+    [submitted_at] => 2025-05-31 03:40:20
+)
+
+[31-May-2025 03:40:20 UTC] Successfully inserted data with ID: 18
+[31-May-2025 03:40:20 UTC] SMTP Configuration:
+[31-May-2025 03:40:20 UTC] Host: smtpout.secureserver.net
+[31-May-2025 03:40:20 UTC] Port: 80
+[31-May-2025 03:40:20 UTC] Security: ssl
+[31-May-2025 03:40:20 UTC] Username: info@shewings.com
+[31-May-2025 03:40:20 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[31-May-2025 03:40:59 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[31-May-2025 03:40:59 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[31-May-2025 03:40:59 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[31-May-2025 03:40:59 UTC] Mail Error Details:
+[31-May-2025 03:40:59 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[31-May-2025 03:40:59 UTC] Error Code: wp_mail_failed
+[31-May-2025 03:40:59 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: kkptIzxMFHgb
+    [message] => A new contact form submission has been received:
+
+Name: BveqkBsfn
+Email: skyinnwv2006@gmail.com
+Phone: 8569670635
+Subject: kkptIzxMFHgb
+Message:
+
+
+Submitted at: 2025-05-31 03:39:59
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[31-May-2025 03:41:20 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[31-May-2025 03:41:20 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[31-May-2025 03:41:20 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[31-May-2025 03:41:20 UTC] Mail Error Details:
+[31-May-2025 03:41:20 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[31-May-2025 03:41:20 UTC] Error Code: wp_mail_failed
+[31-May-2025 03:41:20 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: 
+    [message] => A new contact form submission has been received:
+
+Name: 
+Email: 
+Phone: 
+Subject: 
+Message:
+
+
+Submitted at: 2025-05-31 03:40:20
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[02-Jun-2025 09:27:25 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[02-Jun-2025 09:27:25 UTC] Attempting to use table: wp_contact_submissions
+[02-Jun-2025 09:27:25 UTC] Database connection status: Connected
+[02-Jun-2025 09:27:25 UTC] Attempting to insert data: Array
+(
+    [first_name] => Shreshtha Roy
+    [email] => royshreshtha1997@gmail.com
+    [phone] => 8011902355
+    [subject] => Sponsorship
+    [message] => I want to sponsor your upcoming menstrual hygiene campaign, please arrange a call back
+    [submitted_at] => 2025-06-02 09:27:25
+)
+
+[02-Jun-2025 09:27:25 UTC] Successfully inserted data with ID: 19
+[02-Jun-2025 09:27:25 UTC] SMTP Configuration:
+[02-Jun-2025 09:27:25 UTC] Host: smtpout.secureserver.net
+[02-Jun-2025 09:27:25 UTC] Port: 80
+[02-Jun-2025 09:27:25 UTC] Security: ssl
+[02-Jun-2025 09:27:25 UTC] Username: info@shewings.com
+[02-Jun-2025 09:27:25 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[02-Jun-2025 09:28:25 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[02-Jun-2025 09:28:25 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[02-Jun-2025 09:28:25 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[02-Jun-2025 09:28:25 UTC] Mail Error Details:
+[02-Jun-2025 09:28:25 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[02-Jun-2025 09:28:25 UTC] Error Code: wp_mail_failed
+[02-Jun-2025 09:28:25 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: Sponsorship
+    [message] => A new contact form submission has been received:
+
+Name: Shreshtha Roy
+Email: royshreshtha1997@gmail.com
+Phone: 8011902355
+Subject: Sponsorship
+Message:
+I want to sponsor your upcoming menstrual hygiene campaign, please arrange a call back
+
+Submitted at: 2025-06-02 09:27:25
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[03-Jun-2025 04:24:40 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[03-Jun-2025 04:24:40 UTC] PHP Notice:  Undefined index: message in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 29
+[03-Jun-2025 04:24:40 UTC] Attempting to use table: wp_contact_submissions
+[03-Jun-2025 04:24:40 UTC] Database connection status: Connected
+[03-Jun-2025 04:24:40 UTC] Attempting to insert data: Array
+(
+    [first_name] => uDbsAVZCL
+    [email] => smithandrea339680@yahoo.com
+    [phone] => 9269069929
+    [subject] => BDElLmAR
+    [message] => 
+    [submitted_at] => 2025-06-03 04:24:40
+)
+
+[03-Jun-2025 04:24:40 UTC] Successfully inserted data with ID: 20
+[03-Jun-2025 04:24:40 UTC] SMTP Configuration:
+[03-Jun-2025 04:24:40 UTC] Host: smtpout.secureserver.net
+[03-Jun-2025 04:24:40 UTC] Port: 80
+[03-Jun-2025 04:24:40 UTC] Security: ssl
+[03-Jun-2025 04:24:40 UTC] Username: info@shewings.com
+[03-Jun-2025 04:24:40 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[03-Jun-2025 04:25:00 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[03-Jun-2025 04:25:00 UTC] PHP Notice:  Undefined index: first_name in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 25
+[03-Jun-2025 04:25:00 UTC] PHP Notice:  Undefined index: email in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 26
+[03-Jun-2025 04:25:00 UTC] PHP Notice:  Undefined index: phone in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 27
+[03-Jun-2025 04:25:00 UTC] PHP Notice:  Undefined index: subject in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 28
+[03-Jun-2025 04:25:00 UTC] PHP Notice:  Undefined index: message in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 29
+[03-Jun-2025 04:25:00 UTC] Attempting to use table: wp_contact_submissions
+[03-Jun-2025 04:25:00 UTC] Database connection status: Connected
+[03-Jun-2025 04:25:00 UTC] Attempting to insert data: Array
+(
+    [first_name] => 
+    [email] => 
+    [phone] => 
+    [subject] => 
+    [message] => 
+    [submitted_at] => 2025-06-03 04:25:00
+)
+
+[03-Jun-2025 04:25:00 UTC] Successfully inserted data with ID: 21
+[03-Jun-2025 04:25:00 UTC] SMTP Configuration:
+[03-Jun-2025 04:25:00 UTC] Host: smtpout.secureserver.net
+[03-Jun-2025 04:25:00 UTC] Port: 80
+[03-Jun-2025 04:25:00 UTC] Security: ssl
+[03-Jun-2025 04:25:00 UTC] Username: info@shewings.com
+[03-Jun-2025 04:25:00 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[03-Jun-2025 04:25:40 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[03-Jun-2025 04:25:40 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[03-Jun-2025 04:25:40 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[03-Jun-2025 04:25:40 UTC] Mail Error Details:
+[03-Jun-2025 04:25:40 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[03-Jun-2025 04:25:40 UTC] Error Code: wp_mail_failed
+[03-Jun-2025 04:25:40 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: BDElLmAR
+    [message] => A new contact form submission has been received:
+
+Name: uDbsAVZCL
+Email: smithandrea339680@yahoo.com
+Phone: 9269069929
+Subject: BDElLmAR
+Message:
+
+
+Submitted at: 2025-06-03 04:24:40
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[03-Jun-2025 04:26:00 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[03-Jun-2025 04:26:00 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[03-Jun-2025 04:26:00 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[03-Jun-2025 04:26:00 UTC] Mail Error Details:
+[03-Jun-2025 04:26:00 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[03-Jun-2025 04:26:00 UTC] Error Code: wp_mail_failed
+[03-Jun-2025 04:26:00 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: 
+    [message] => A new contact form submission has been received:
+
+Name: 
+Email: 
+Phone: 
+Subject: 
+Message:
+
+
+Submitted at: 2025-06-03 04:25:00
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[05-Jun-2025 05:38:28 UTC] Server Environment: Array
+(
+    [PHP Version] => 7.4.33
+    [WordPress Version] => 6.8.1
+    [Server Software] => Apache
+    [Database Prefix] => wp_
+)
+
+[05-Jun-2025 05:38:28 UTC] PHP Notice:  Undefined index: first_name in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 25
+[05-Jun-2025 05:38:28 UTC] PHP Notice:  Undefined index: email in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 26
+[05-Jun-2025 05:38:28 UTC] PHP Notice:  Undefined index: phone in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 27
+[05-Jun-2025 05:38:28 UTC] PHP Notice:  Undefined index: subject in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 28
+[05-Jun-2025 05:38:28 UTC] PHP Notice:  Undefined index: message in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-content/themes/mytheme/process-contact.php on line 29
+[05-Jun-2025 05:38:28 UTC] Attempting to use table: wp_contact_submissions
+[05-Jun-2025 05:38:28 UTC] Database connection status: Connected
+[05-Jun-2025 05:38:28 UTC] Attempting to insert data: Array
+(
+    [first_name] => 
+    [email] => 
+    [phone] => 
+    [subject] => 
+    [message] => 
+    [submitted_at] => 2025-06-05 05:38:28
+)
+
+[05-Jun-2025 05:38:28 UTC] Successfully inserted data with ID: 22
+[05-Jun-2025 05:38:28 UTC] SMTP Configuration:
+[05-Jun-2025 05:38:28 UTC] Host: smtpout.secureserver.net
+[05-Jun-2025 05:38:28 UTC] Port: 80
+[05-Jun-2025 05:38:28 UTC] Security: ssl
+[05-Jun-2025 05:38:28 UTC] Username: info@shewings.com
+[05-Jun-2025 05:38:28 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[05-Jun-2025 05:39:28 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[05-Jun-2025 05:39:28 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[05-Jun-2025 05:39:28 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[05-Jun-2025 05:39:28 UTC] Mail Error Details:
+[05-Jun-2025 05:39:28 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[05-Jun-2025 05:39:28 UTC] Error Code: wp_mail_failed
+[05-Jun-2025 05:39:28 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => care@shewings.com
+        )
+
+    [subject] => New Contact Form Submission: 
+    [message] => A new contact form submission has been received:
+
+Name: 
+Email: 
+Phone: 
+Subject: 
+Message:
+
+
+Submitted at: 2025-06-05 05:38:28
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+

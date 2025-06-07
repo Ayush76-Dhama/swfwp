@@ -1,0 +1,503 @@
+[24-May-2025 06:58:18 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:21:59 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:24:29 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:27:44 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:27:56 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:28:29 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:28:31 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:29:01 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:29:05 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[24-May-2025 08:30:50 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[26-May-2025 04:25:04 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[26-May-2025 04:44:22 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[26-May-2025 05:06:07 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[26-May-2025 05:26:13 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[26-May-2025 05:26:14 UTC] WordPress database error Table 'swfdb.wp_donations' doesn't exist for query SHOW FULL COLUMNS FROM `wp_donations` made by do_action('admin_post_nopriv_process_donation'), WP_Hook->do_action, WP_Hook->apply_filters, process_donation_form
+[26-May-2025 07:34:22 UTC] WordPress database error Table 'swfdb.wp_join_us_entries' doesn't exist for query SELECT * FROM wp_join_us_entries ORDER BY submitted_at DESC made by do_action('toplevel_page_join-us-submissions'), WP_Hook->do_action, WP_Hook->apply_filters, display_join_us_submissions
+[26-May-2025 12:15:58 UTC] WordPress database error Table 'swfdb.wp_join_us_entries' doesn't exist for query SELECT * FROM wp_join_us_entries ORDER BY submitted_at DESC made by do_action('toplevel_page_join-us-submissions'), WP_Hook->do_action, WP_Hook->apply_filters, display_join_us_submissions
+[26-May-2025 12:17:40 UTC] WordPress database error Table 'swfdb.wp_join_us_entries' doesn't exist for query SELECT * FROM wp_join_us_entries ORDER BY submitted_at DESC made by do_action('toplevel_page_join-us-submissions'), WP_Hook->do_action, WP_Hook->apply_filters, display_join_us_submissions
+[29-May-2025 08:55:42 UTC] Attempting to send test email...
+[29-May-2025 08:55:42 UTC] To: info@shewings.com
+[29-May-2025 08:55:42 UTC] Subject: Test Email from WordPress - 2025-05-29 08:55:42
+[29-May-2025 08:55:42 UTC] SMTP Configuration:
+[29-May-2025 08:55:42 UTC] Host: smtpout.secureserver.net
+[29-May-2025 08:55:42 UTC] Port: 80
+[29-May-2025 08:55:42 UTC] Security: ssl
+[29-May-2025 08:55:42 UTC] Username: info@shewings.com
+[29-May-2025 08:55:42 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 08:55:54 UTC] Attempting to send test email...
+[29-May-2025 08:55:54 UTC] To: info@shewings.com
+[29-May-2025 08:55:54 UTC] Subject: Test Email from WordPress - 2025-05-29 08:55:54
+[29-May-2025 08:55:54 UTC] SMTP Configuration:
+[29-May-2025 08:55:54 UTC] Host: smtpout.secureserver.net
+[29-May-2025 08:55:54 UTC] Port: 80
+[29-May-2025 08:55:54 UTC] Security: ssl
+[29-May-2025 08:55:54 UTC] Username: info@shewings.com
+[29-May-2025 08:55:54 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 08:56:42 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 08:56:42 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 08:56:42 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:56:42 UTC] Mail Error Details:
+[29-May-2025 08:56:42 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:56:42 UTC] Error Code: wp_mail_failed
+[29-May-2025 08:56:42 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => info@shewings.com
+        )
+
+    [subject] => Test Email from WordPress - 2025-05-29 08:55:42
+    [message] => This is a test email to verify SMTP configuration.
+
+Server Information:
+PHP Version: 7.4.33
+WordPress Version: 6.8.1
+Server Software: Apache
+Time: 2025-05-29 08:55:42
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 08:56:42 UTC] Test email result: Failed
+[29-May-2025 08:56:42 UTC] Last PHP Error: 
+[29-May-2025 08:56:43 UTC] Attempting to send test email...
+[29-May-2025 08:56:43 UTC] To: info@shewings.com
+[29-May-2025 08:56:43 UTC] Subject: Test Email from WordPress - 2025-05-29 08:56:43
+[29-May-2025 08:56:43 UTC] SMTP Configuration:
+[29-May-2025 08:56:43 UTC] Host: smtpout.secureserver.net
+[29-May-2025 08:56:43 UTC] Port: 80
+[29-May-2025 08:56:43 UTC] Security: ssl
+[29-May-2025 08:56:43 UTC] Username: info@shewings.com
+[29-May-2025 08:56:43 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 08:56:54 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 08:56:54 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 08:56:54 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:56:54 UTC] Mail Error Details:
+[29-May-2025 08:56:54 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:56:54 UTC] Error Code: wp_mail_failed
+[29-May-2025 08:56:54 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => info@shewings.com
+        )
+
+    [subject] => Test Email from WordPress - 2025-05-29 08:55:54
+    [message] => This is a test email to verify SMTP configuration.
+
+Server Information:
+PHP Version: 7.4.33
+WordPress Version: 6.8.1
+Server Software: Apache
+Time: 2025-05-29 08:55:54
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 08:56:54 UTC] Test email result: Failed
+[29-May-2025 08:56:54 UTC] Last PHP Error: 
+[29-May-2025 08:57:43 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 08:57:43 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 08:57:43 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:57:43 UTC] Mail Error Details:
+[29-May-2025 08:57:43 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:57:43 UTC] Error Code: wp_mail_failed
+[29-May-2025 08:57:43 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => info@shewings.com
+        )
+
+    [subject] => Test Email from WordPress - 2025-05-29 08:56:43
+    [message] => This is a test email to verify SMTP configuration.
+
+Server Information:
+PHP Version: 7.4.33
+WordPress Version: 6.8.1
+Server Software: Apache
+Time: 2025-05-29 08:56:43
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 08:57:43 UTC] Test email result: Failed
+[29-May-2025 08:57:43 UTC] Last PHP Error: 
+[29-May-2025 08:58:15 UTC] Attempting to send test email...
+[29-May-2025 08:58:15 UTC] To: info@shewings.com
+[29-May-2025 08:58:15 UTC] Subject: Test Email from WordPress - 2025-05-29 08:58:15
+[29-May-2025 08:58:15 UTC] SMTP Configuration:
+[29-May-2025 08:58:15 UTC] Host: smtpout.secureserver.net
+[29-May-2025 08:58:15 UTC] Port: 80
+[29-May-2025 08:58:15 UTC] Security: ssl
+[29-May-2025 08:58:15 UTC] Username: info@shewings.com
+[29-May-2025 08:58:15 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 08:59:11 UTC] Attempting to send test email...
+[29-May-2025 08:59:11 UTC] To: info@shewings.com
+[29-May-2025 08:59:11 UTC] Subject: Test Email from WordPress - 2025-05-29 08:59:11
+[29-May-2025 08:59:11 UTC] SMTP Configuration:
+[29-May-2025 08:59:11 UTC] Host: smtpout.secureserver.net
+[29-May-2025 08:59:11 UTC] Port: 80
+[29-May-2025 08:59:11 UTC] Security: ssl
+[29-May-2025 08:59:11 UTC] Username: info@shewings.com
+[29-May-2025 08:59:11 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 08:59:15 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 08:59:15 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 08:59:15 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:59:15 UTC] Mail Error Details:
+[29-May-2025 08:59:15 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 08:59:15 UTC] Error Code: wp_mail_failed
+[29-May-2025 08:59:15 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => info@shewings.com
+        )
+
+    [subject] => Test Email from WordPress - 2025-05-29 08:58:15
+    [message] => This is a test email to verify SMTP configuration.
+
+Server Information:
+PHP Version: 7.4.33
+WordPress Version: 6.8.1
+Server Software: Apache
+Time: 2025-05-29 08:58:15
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 08:59:15 UTC] Test email result: Failed
+[29-May-2025 08:59:15 UTC] Last PHP Error: 
+[29-May-2025 09:00:11 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 09:00:11 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 09:00:11 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 09:00:11 UTC] Mail Error Details:
+[29-May-2025 09:00:11 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 09:00:11 UTC] Error Code: wp_mail_failed
+[29-May-2025 09:00:11 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => info@shewings.com
+        )
+
+    [subject] => Test Email from WordPress - 2025-05-29 08:59:11
+    [message] => This is a test email to verify SMTP configuration.
+
+Server Information:
+PHP Version: 7.4.33
+WordPress Version: 6.8.1
+Server Software: Apache
+Time: 2025-05-29 08:59:11
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 09:00:11 UTC] Test email result: Failed
+[29-May-2025 09:00:11 UTC] Last PHP Error: 
+[29-May-2025 09:12:34 UTC] Attempting to send test email...
+[29-May-2025 09:12:34 UTC] To: info@shewings.com
+[29-May-2025 09:12:34 UTC] Subject: Test Email from WordPress - 2025-05-29 09:12:34
+[29-May-2025 09:12:34 UTC] SMTP Configuration:
+[29-May-2025 09:12:34 UTC] Host: smtpout.secureserver.net
+[29-May-2025 09:12:34 UTC] Port: 80
+[29-May-2025 09:12:34 UTC] Security: ssl
+[29-May-2025 09:12:34 UTC] Username: info@shewings.com
+[29-May-2025 09:12:34 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 09:13:34 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 09:13:34 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 09:13:34 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 09:13:34 UTC] Mail Error Details:
+[29-May-2025 09:13:34 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 09:13:34 UTC] Error Code: wp_mail_failed
+[29-May-2025 09:13:34 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => info@shewings.com
+        )
+
+    [subject] => Test Email from WordPress - 2025-05-29 09:12:34
+    [message] => This is a test email to verify SMTP configuration.
+
+Server Information:
+PHP Version: 7.4.33
+WordPress Version: 6.8.1
+Server Software: Apache
+Time: 2025-05-29 09:12:34
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 09:13:34 UTC] Test email result: Failed
+[29-May-2025 09:13:34 UTC] Last PHP Error: 
+[29-May-2025 09:34:49 UTC] Attempting to send test email...
+[29-May-2025 09:34:49 UTC] To: info@shewings.com
+[29-May-2025 09:34:49 UTC] Subject: Test Email from WordPress - 2025-05-29 09:34:49
+[29-May-2025 09:34:49 UTC] SMTP Configuration:
+[29-May-2025 09:34:49 UTC] Host: smtpout.secureserver.net
+[29-May-2025 09:34:49 UTC] Port: 80
+[29-May-2025 09:34:49 UTC] Security: ssl
+[29-May-2025 09:34:49 UTC] Username: info@shewings.com
+[29-May-2025 09:34:49 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[29-May-2025 09:35:49 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[29-May-2025 09:35:49 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[29-May-2025 09:35:49 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 09:35:49 UTC] Mail Error Details:
+[29-May-2025 09:35:49 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[29-May-2025 09:35:49 UTC] Error Code: wp_mail_failed
+[29-May-2025 09:35:49 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => info@shewings.com
+        )
+
+    [subject] => Test Email from WordPress - 2025-05-29 09:34:49
+    [message] => This is a test email to verify SMTP configuration.
+
+Server Information:
+PHP Version: 7.4.33
+WordPress Version: 6.8.1
+Server Software: Apache
+Time: 2025-05-29 09:34:49
+
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[29-May-2025 09:35:49 UTC] Test email result: Failed
+[29-May-2025 09:35:49 UTC] Last PHP Error: 
+[02-Jun-2025 09:36:01 UTC] Donation form submitted
+[02-Jun-2025 09:36:01 UTC] Form data sanitized: Array
+(
+    [donation_nonce] => 2a76ba99bd
+    [_wp_http_referer] => /donation/
+    [action] => process_donation
+    [firstname] => Shreshtha Roy
+    [email] => royshreshtha1997@gmail.com
+    [phone] => 8011902355
+    [pan] => AYDPB7642N
+    [address] => Sec 43, Noida
+    [amount] => 10
+)
+
+[02-Jun-2025 09:36:01 UTC] Donation post created with ID: 129
+[02-Jun-2025 09:36:01 UTC] Database insert result: success
+[02-Jun-2025 09:36:01 UTC] SMTP Configuration:
+[02-Jun-2025 09:36:01 UTC] Host: smtpout.secureserver.net
+[02-Jun-2025 09:36:01 UTC] Port: 80
+[02-Jun-2025 09:36:01 UTC] Security: ssl
+[02-Jun-2025 09:36:01 UTC] Username: info@shewings.com
+[02-Jun-2025 09:36:01 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[02-Jun-2025 09:37:01 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[02-Jun-2025 09:37:01 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[02-Jun-2025 09:37:01 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[02-Jun-2025 09:37:01 UTC] Mail Error Details:
+[02-Jun-2025 09:37:01 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[02-Jun-2025 09:37:01 UTC] Error Code: wp_mail_failed
+[02-Jun-2025 09:37:01 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => royshreshtha1997@gmail.com
+        )
+
+    [subject] => Thank you for your donation to SheWings Foundation
+    [message] => Dear Shreshtha Roy,
+
+Thank you for your generous donation of ₹10 to SheWings Foundation.
+
+We have received your donation request and will process it shortly.
+
+Best regards,
+SheWings Foundation Team
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[02-Jun-2025 09:37:01 UTC] Confirmation email sent: no
+[02-Jun-2025 09:37:01 UTC] Redirecting to: https://shewingsfoundation.com/thank-you/?type=donation
+[02-Jun-2025 09:41:13 UTC] Donation form submitted
+[02-Jun-2025 09:41:13 UTC] Form data sanitized: Array
+(
+    [donation_nonce] => ee2ae43eea
+    [_wp_http_referer] => /donation/
+    [action] => process_donation
+    [firstname] => Ayush Dhama
+    [email] => ayushdhama76@gmail.com
+    [phone] => 08938827779
+    [pan] => rtgrtrgh42
+    [address] => Khekra
+    [amount] => 43
+)
+
+[02-Jun-2025 09:41:13 UTC] Donation post created with ID: 130
+[02-Jun-2025 09:41:13 UTC] Database insert result: success
+[02-Jun-2025 09:41:13 UTC] SMTP Configuration:
+[02-Jun-2025 09:41:13 UTC] Host: smtpout.secureserver.net
+[02-Jun-2025 09:41:13 UTC] Port: 80
+[02-Jun-2025 09:41:13 UTC] Security: ssl
+[02-Jun-2025 09:41:13 UTC] Username: info@shewings.com
+[02-Jun-2025 09:41:13 UTC] SMTP Debug Level 3: Connection: opening to ssl://smtpout.secureserver.net:80, timeout=60, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+[02-Jun-2025 09:42:13 UTC] SMTP Debug Level 3: Connection failed. Error #2: stream_socket_client(): unable to connect to ssl://smtpout.secureserver.net:80 (Connection timed out) [/home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-includes/PHPMailer/SMTP.php line 413]
+[02-Jun-2025 09:42:13 UTC] SMTP Debug Level 1: SMTP ERROR: Failed to connect to server: Connection timed out (110)
+[02-Jun-2025 09:42:13 UTC] SMTP Debug Level 3: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[02-Jun-2025 09:42:13 UTC] Mail Error Details:
+[02-Jun-2025 09:42:13 UTC] Error Message: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[02-Jun-2025 09:42:13 UTC] Error Code: wp_mail_failed
+[02-Jun-2025 09:42:13 UTC] Error Data: Array
+(
+    [to] => Array
+        (
+            [0] => ayushdhama76@gmail.com
+        )
+
+    [subject] => Thank you for your donation to SheWings Foundation
+    [message] => Dear Ayush Dhama,
+
+Thank you for your generous donation of ₹43 to SheWings Foundation.
+
+We have received your donation request and will process it shortly.
+
+Best regards,
+SheWings Foundation Team
+    [headers] => Array
+        (
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [phpmailer_exception_code] => 0
+)
+
+[02-Jun-2025 09:42:13 UTC] Confirmation email sent: no
+[02-Jun-2025 09:42:13 UTC] Redirecting to: https://shewingsfoundation.com/thank-you/?type=donation

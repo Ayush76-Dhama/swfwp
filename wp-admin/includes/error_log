@@ -1,0 +1,4 @@
+[09-Apr-2025 01:29:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/fmo0urzvjqw3/public_html/shewingsfoundation.com/wp-admin/includes/admin.php on line 16
