@@ -202,6 +202,9 @@ function twentytwenty_register_styles() {
 
 	// Add print CSS.
 	wp_enqueue_style( 'twentytwenty-print-style', get_template_directory_uri() . '/print.css', null, $theme_version, 'print' );
+
+	// Add mobile CSS
+	wp_enqueue_style( 'twentytwenty-mobile-style', get_template_directory_uri() . '/css/mobile.css', array(), $theme_version, 'all' );
 }
 
 add_action( 'wp_enqueue_scripts', 'twentytwenty_register_styles' );

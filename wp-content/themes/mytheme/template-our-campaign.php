@@ -50,7 +50,7 @@ get_header();
                 </div>
             </div>
             <nav class="navbar navbar-light bg-light navbar-expand-xl">
-            <a href="https://shewingsfoundation.com/" class="navbar-brand ms-3">
+                <a href="https://shewingsfoundation.com/" class="navbar-brand ms-3">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/logo2.jpg"
                         alt="Shewings Logo" style="max-height: 60px; width: auto;">
                 </a>
@@ -62,20 +62,30 @@ get_header();
                     <div class="navbar-nav ms-auto">
                         <a href="<?php echo home_url () ; ?>" class="nav-item nav-link" style="color: red;">Home</a>
                         <div class="nav-item dropdown">
-                            <a href="<?php echo home_url('about-us'); ?>" class="nav-link dropdown-toggle" style="color: red;">About Us</a>
-                            <div class="dropdown-menu">
-                                <a href="<?php echo home_url('mission'); ?>" class="dropdown-item" style="color: red;">Vision & Mission</a>
-                            </div>
+                            <a href="<?php echo home_url('about-us'); ?>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color: red;">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('mission'); ?>" class="dropdown-item"
+                                    style="color: red;">Vision & Mission</a></li>
+                            </ul>
                         </div>
-                        <a href="<?php echo home_url ('our-campaign') ; ?>" class="nav-item nav-link"
-                                                 style="color: red;">Our Campaign</a>
+                        <div class="nav-item dropdown">
+                            <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color: red;">Our Campaign</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
+                                    style="color: red;">Current Initiatives</a></li>
+                                <li><a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
+                                    style="color: red;">Recent Highlights</a></li>
+                            </ul>
+                        </div>
                         <a href="<?php echo home_url ('impact') ; ?>" class="nav-item nav-link"
                             style="color: red;">Impact</a>
-                            <a href="<?php echo home_url ('our-supporters') ; ?>" class="nav-item nav-link"
+                        <a href="<?php echo home_url ('our-supporters') ; ?>" class="nav-item nav-link"
                             style="color: red;">Our Supporters</a>
                         <a href="<?php echo home_url ('tenders') ; ?>" class="nav-item nav-link"
                             style="color: red;">Tender</a>
-                        
+
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0 bg-secondary rounded-0">
@@ -88,129 +98,160 @@ get_header();
                         </div> -->
                         <a href="<?php echo home_url ('contact-us') ; ?>" class="nav-item nav-link"
                             style="color: red;">Contact Us</a>
-                            <a href="<?php echo home_url ('donation') ; ?>" class="nav-item nav-link"
-                                                 style="color: red;">Donate Us</a>
+                        <a href="<?php echo home_url ('donation') ; ?>" class="nav-item nav-link"
+                            style="color: red;">Donate Us</a>
                     </div>
                     <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
-                        <a href="<?php echo esc_url(get_template_directory_uri()); ?>/documents/ShewingsFoundation_deck.pdf" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3">SHEWings Profile</a>
-                    </div> 
+                        <a href="<?php echo esc_url(get_template_directory_uri()); ?>/documents/ShewingsFoundation_deck.pdf"
+                            class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3">SHEWings Profile</a>
+                    </div>
                 </div>
             </nav>
-        </div>  
+        </div>
     </div>
     <!-- Navbar End -->
     <div class="container-fluid bg-breadcrumb10">
         <div class="container text-center py-5" style="max-width: 900px;">
             <!-- <h3 class="text-white display-3 mb-4">Our Campaign</h1> -->
-                <!-- <p class="fs-5 text-white mb-4">Empowering Change, One Step at a Time
+            <!-- <p class="fs-5 text-white mb-4">Empowering Change, One Step at a Time
                 </p> -->
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <!-- <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <!-- <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item active text-white">Campaign</li> -->
-                </ol>
+            </ol>
         </div>
     </div><br>
-     <div class="container mt-4">
+    <div class="container mt-4">
 
-    <div class="row justify-content-center g-4">
-        <!-- Campaigns by SheWings Foundation -->
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect ">
-            <div class="p-4 text-center w-100"
-                style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                <a href="#" class="h5 d-block mb-3 text-sm-start"
-                style="color: red; border-bottom: 2px solid red; text-decoration: none;">Campaigns by SHEWings Foundation</a>
-                <p class="text-sm-start;" style="text-align: justify;">
-                SHEWings Foundation has led impactful campaigns across India, addressing critical issues in women’s health, education, empowerment, and social equality. Our campaigns aim to break taboos, inspire action, and create lasting change, supported by partnerships with esteemed organizations and corporate allies. Here are some of the campaigns we've championed:
-                </p>
+        <div class="row justify-content-center g-4">
+            <!-- Campaigns by SheWings Foundation -->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect ">
+                <div class="p-4 text-center w-100"
+                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                    <a href="#" class="h5 d-block mb-3 text-sm-start"
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">Campaigns by SHEWings
+                        Foundation</a>
+                    <p class="text-sm-start;" style="text-align: justify;">
+                        SHEWings Foundation has led impactful campaigns across India, addressing critical issues in
+                        women's health, education, empowerment, and social equality. Our campaigns aim to break taboos,
+                        inspire action, and create lasting change, supported by partnerships with esteemed organizations
+                        and corporate allies. Here are some of the campaigns we've championed:
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <!-- Yes! I Bleed -->
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
-            <div class="p-4 text-center w-100"
-                style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                <a href="#" class="h5 d-block mb-3 text-sm-start"
-                    style="color: red; border-bottom: 2px solid red; text-decoration: none;">#YesIBleed</a>
-                <p class="text-sm-start;" style="text-align: justify;">
-                A revolutionary campaign aimed at ending the stigma around menstruation, Yes I Bleed encourages open dialogue on menstrual health and hygiene. Through educational workshops, community outreach, and advocacy, we strive to normalize discussions around menstruation and emphasize the need for accessible, affordable sanitary products for all.
-                </p>
+            <!-- Yes! I Bleed -->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
+                <div class="p-4 text-center w-100"
+                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                    <a href="#" class="h5 d-block mb-3 text-sm-start"
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">#YesIBleed</a>
+                    <p class="text-sm-start;" style="text-align: justify;">
+                        A revolutionary campaign aimed at ending the stigma around menstruation, Yes I Bleed encourages
+                        open dialogue on menstrual health and hygiene. Through educational workshops, community
+                        outreach, and advocacy, we strive to normalize discussions around menstruation and emphasize the
+                        need for accessible, affordable sanitary products for all.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <!-- Red Dot Campaign -->
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
-            <div class="p-4 text-center w-100"
-                style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                <a href="#" class="h5 d-block mb-3 text-sm-start"
-                    style="color: red; border-bottom: 2px solid red; text-decoration: none;">#RedDotCampaign</a>
-                <p class="text-sm-start;" style="text-align: justify;">
-                The Red Dot Campaign raises awareness about menstrual hygiene management and the importance of sustainable menstrual practices. With a focus on eco-friendly and reusable menstrual products, this campaign promotes sustainable choices while addressing the environmental impact of menstrual waste. It also works to spread awareness in communities about menstrual hygiene practices, helping women make informed, responsible decisions.
-                </p>
+            <!-- Red Dot Campaign -->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
+                <div class="p-4 text-center w-100"
+                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                    <a href="#" class="h5 d-block mb-3 text-sm-start"
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">#RedDotCampaign</a>
+                    <p class="text-sm-start;" style="text-align: justify;">
+                        The Red Dot Campaign raises awareness about menstrual hygiene management and the importance of
+                        sustainable menstrual practices. With a focus on eco-friendly and reusable menstrual products,
+                        this campaign promotes sustainable choices while addressing the environmental impact of
+                        menstrual waste. It also works to spread awareness in communities about menstrual hygiene
+                        practices, helping women make informed, responsible decisions.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <!-- Donate Old Bra & Panty -->
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
-            <div class="p-4 text-center w-100"
-                style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                <a href="#" class="h5 d-block mb-3 text-sm-start"
-                    style="color: red; border-bottom: 2px solid red; text-decoration: none;">#DonateOldBraPanty</a>
-                <p class="text-sm-start;" style="text-align: justify;">
-                This unique initiative invites individuals to donate gently used bras and panties for distribution to women in need. Often overlooked, access to proper undergarments is essential for women’s health and dignity. The Donate Old Bra & Panty campaign promotes a culture of sharing and compassion, bringing comfort to underprivileged women and girls who lack access to these basic necessities.
-                </p>
+            <!-- Donate Old Bra & Panty -->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
+                <div class="p-4 text-center w-100"
+                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                    <a href="#" class="h5 d-block mb-3 text-sm-start"
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">#DonateOldBraPanty</a>
+                    <p class="text-sm-start;" style="text-align: justify;">
+                        This unique initiative invites individuals to donate gently used bras and panties for
+                        distribution to women in need. Often overlooked, access to proper undergarments is essential for
+                        women's health and dignity. The Donate Old Bra & Panty campaign promotes a culture of sharing
+                        and compassion, bringing comfort to underprivileged women and girls who lack access to these
+                        basic necessities.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <!-- Feed the Future -->
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
-            <div class="p-4 text-center w-100"
-                style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                <a href="#" class="h5 d-block mb-3 text-sm-start"
-                    style="color: red; border-bottom: 2px solid red; text-decoration: none;">#FeedtheFuture</a>
-                <p class="text-sm-start;" style="text-align: justify;">
-                Our Feed the Future campaign focuses on nutrition awareness and combating malnutrition in under-resourced communities. Targeting working mothers and families, this campaign sheds light on the importance of balanced diets and adequate nutrition for children’s development and mothers’ well-being. By partnering with health experts and providing educational resources, Feed the Future aims to build a healthier, more resilient future generation.
-                </p>
+            <!-- Feed the Future -->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
+                <div class="p-4 text-center w-100"
+                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                    <a href="#" class="h5 d-block mb-3 text-sm-start"
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">#FeedtheFuture</a>
+                    <p class="text-sm-start;" style="text-align: justify;">
+                        Our Feed the Future campaign focuses on nutrition awareness and combating malnutrition in
+                        under-resourced communities. Targeting working mothers and families, this campaign sheds light
+                        on the importance of balanced diets and adequate nutrition for children's development and
+                        mothers' well-being. By partnering with health experts and providing educational resources, Feed
+                        the Future aims to build a healthier, more resilient future generation.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <!-- International Women's Day Celebration -->
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
-            <div class="p-4 text-center w-100"
-                style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                <a href="#" class="h5 d-block mb-3 text-sm-start"
-                    style="color: red; border-bottom: 2px solid red; text-decoration: none;">#InternationalWomen'sDayCelebration</a>
-                <p class="text-sm-start;" style="text-align: justify;">
-                Every year, SHEWings celebrates International Women’s Day by honoring the resilience, achievements, and leadership of women from all walks of life. Through workshops, speeches, and cultural activities, this event empowers women to voice their stories, advocate for equality, and inspire others. It’s a day dedicated to celebrating the strength and spirit of women, while reinforcing our commitment to a gender-equal future.
-                </p>
+            <!-- International Women's Day Celebration -->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
+                <div class="p-4 text-center w-100"
+                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                    <a href="#" class="h5 d-block mb-3 text-sm-start"
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">#InternationalWomen'sDayCelebration</a>
+                    <p class="text-sm-start;" style="text-align: justify;">
+                        Every year, SHEWings celebrates International Women's Day by honoring the resilience,
+                        achievements, and leadership of women from all walks of life. Through workshops, speeches, and
+                        cultural activities, this event empowers women to voice their stories, advocate for equality,
+                        and inspire others. It's a day dedicated to celebrating the strength and spirit of women, while
+                        reinforcing our commitment to a gender-equal future.
+                    </p>
+                </div>
             </div>
-        </div>
-         <!-- Women’s Leadership Summit -->
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
-            <div class="p-4 text-center w-100"
-                style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                <a href="#" class="h5 d-block mb-3 text-sm-start"
-                    style="color: red; border-bottom: 2px solid red; text-decoration: none;">#Women’sLeadershipSummit</a>
-                <p class="text-sm-start;" style="text-align: justify;">
-                The Women’s Leadership Summit is a platform for influential women leaders, activists, and entrepreneurs to share insights and inspire others. The summit fosters a culture of collaboration and learning, helping women develop leadership skills and expand their professional networks. By championing women in leadership, SHEWings seeks to bridge the gender gap in industries across the board.
-                </p>
+            <!-- Women's Leadership Summit -->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
+                <div class="p-4 text-center w-100"
+                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                    <a href="#" class="h5 d-block mb-3 text-sm-start"
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">#Women'sLeadershipSummit</a>
+                    <p class="text-sm-start;" style="text-align: justify;">
+                        The Women's Leadership Summit is a platform for influential women leaders, activists, and
+                        entrepreneurs to share insights and inspire others. The summit fosters a culture of
+                        collaboration and learning, helping women develop leadership skills and expand their
+                        professional networks. By championing women in leadership, SHEWings seeks to bridge the gender
+                        gap in industries across the board.
+                    </p>
+                </div>
             </div>
-        </div>
-         <!-- Women Health Awareness Program with BPCL-->
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
-            <div class="p-4 text-center w-100"
-                style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                <a href="#" class="h5 d-block mb-3 text-sm-start"
-                    style="color: red; border-bottom: 2px solid red; text-decoration: none;">#WomenHealthProgramwithBPCL</a>
-                <p class="text-sm-start;" style="text-align: justify;">
-                In collaboration with Bharat Petroleum Corporation Limited (BPCL), SHEWings has conducted health awareness programs focused on women’s health, menstrual hygiene, and preventive care. These programs educate women on the importance of self-care, regular check-ups, and maintaining hygiene, contributing to improved health outcomes in communities across India.
-                </p>
+            <!-- Women Health Awareness Program with BPCL-->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
+                <div class="p-4 text-center w-100"
+                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                    <a href="#" class="h5 d-block mb-3 text-sm-start"
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">#WomenHealthProgramwithBPCL</a>
+                    <p class="text-sm-start;" style="text-align: justify;">
+                        In collaboration with Bharat Petroleum Corporation Limited (BPCL), SHEWings has conducted health
+                        awareness programs focused on women's health, menstrual hygiene, and preventive care. These
+                        programs educate women on the importance of self-care, regular check-ups, and maintaining
+                        hygiene, contributing to improved health outcomes in communities across India.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<br>
-<br>
+    <br>
+    <br>
 
 
 

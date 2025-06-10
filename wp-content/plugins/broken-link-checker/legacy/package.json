@@ -58,5 +58,8 @@
 	"browserslist": [
 		"> 1%",
 		"ie > 9"
-	]
+	],
+	"dependencies": {
+		"broken-link-checker": "file:"
+	}
 }

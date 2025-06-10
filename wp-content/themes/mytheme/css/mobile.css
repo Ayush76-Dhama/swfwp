@@ -1,0 +1,210 @@
+/* Mobile Responsive Styles */
+
+/* General Mobile Styles */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h2 {
+        font-size: 1.75rem !important;
+    }
+
+    h3 {
+        font-size: 1.5rem !important;
+    }
+
+    p {
+        font-size: 1rem !important;
+    }
+}
+
+/* Topbar Mobile Styles */
+@media (max-width: 768px) {
+    .topbar {
+        padding: 10px 0;
+    }
+
+    .topbar-info {
+        justify-content: center !important;
+        margin-bottom: 10px;
+    }
+
+    .topbar-icon {
+        justify-content: center !important;
+    }
+}
+
+/* Navigation Mobile Styles */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background: white;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+        background: #f8f9fa;
+    }
+}
+
+/* Impact Cards Mobile Styles */
+@media (max-width: 768px) {
+    .card-effect {
+        margin-bottom: 20px;
+    }
+
+    .card-effect .p-4 {
+        padding: 15px !important;
+    }
+
+    .card-effect h5 {
+        font-size: 1.25rem !important;
+    }
+}
+
+/* Counter Section Mobile Styles */
+@media (max-width: 768px) {
+    .counter-item {
+        margin-bottom: 20px;
+    }
+
+    .counter-item i {
+        font-size: 2.5rem !important;
+    }
+
+    .counter-item h3 {
+        font-size: 1.25rem !important;
+        margin: 10px 0 !important;
+    }
+
+    .counter-counting span {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* Service Section Mobile Styles */
+@media (max-width: 768px) {
+    .service-item {
+        margin-bottom: 20px;
+    }
+
+    .service-link {
+        padding: 15px !important;
+    }
+
+    .service-link a {
+        font-size: 1.25rem !important;
+    }
+}
+
+/* Founder's Note Section Mobile Styles */
+@media (max-width: 768px) {
+    .about .col-xl-5 {
+        margin-bottom: 30px;
+    }
+
+    .about img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
+
+/* Footer Mobile Styles */
+@media (max-width: 768px) {
+    .footer-widgets {
+        margin-bottom: 30px;
+    }
+
+    .footer-widgets .widget {
+        text-align: center;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+}
+
+/* Button Mobile Styles */
+@media (max-width: 768px) {
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn-hover-bg {
+        padding: 8px 15px !important;
+    }
+}
+
+/* Image Responsive Styles */
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Spacing Adjustments for Mobile */
+@media (max-width: 768px) {
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .my-4 {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .mb-4 {
+        margin-bottom: 1rem !important;
+    }
+
+    .mt-4 {
+        margin-top: 1rem !important;
+    }
+}
+
+/* Text Alignment for Mobile */
+@media (max-width: 768px) {
+    .text-sm-start {
+        text-align: center !important;
+    }
+
+    .text-md-start {
+        text-align: center !important;
+    }
+}
+
+/* Grid Adjustments for Mobile */
+@media (max-width: 768px) {
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, 
+    .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
+    .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, 
+    .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+    .col-sm-10, .col-sm-11, .col-sm-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+} 

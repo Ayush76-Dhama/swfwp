@@ -69,8 +69,16 @@ get_header();
                                 Mission</a>
                         </div>
                     </div>
-                    <a href="<?php echo home_url ('our-campaign') ; ?>" class="nav-item nav-link"
-                        style="color: red;">Our Campaign</a>
+                    <div class="nav-item dropdown">
+                            <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color: red;">Our Campaign</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
+                                    style="color: red;">Current Initiatives</a></li>
+                                <li><a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
+                                    style="color: red;">Recent Highlights</a></li>
+                            </ul>
+                        </div>
                     <a href="<?php echo home_url ('impact') ; ?>" class="nav-item nav-link"
                         style="color: red;">Impact</a>
                     <a href="<?php echo home_url ('our-supporters') ; ?>" class="nav-item nav-link"
@@ -124,7 +132,7 @@ get_header();
         <!-- Product Section -->
         <section class="content-card">
             <div class="video-wrapper">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/community.jpg"
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/campaign/bpclwater.jpg"
                     alt="She Wings Community" class="content-video">
                 <div class="video-overlay"></div>
             </div>
@@ -161,7 +169,7 @@ get_header();
         <!-- Community Section -->
         <section class="content-card">
             <div class="video-wrapper">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/comfort.jpg"
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/campaign/iocl.jpg"
                     alt="Comfort and Convenience" class="content-video">
                 <div class="video-overlay"></div>
             </div>

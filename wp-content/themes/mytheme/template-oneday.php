@@ -69,8 +69,16 @@ get_header();
                                Mission</a>
                        </div>
                    </div>
-                   <a href="<?php echo home_url ('our-campaign') ; ?>" class="nav-item nav-link"
-                       style="color: red;">Our Campaign</a>
+                   <div class="nav-item dropdown">
+                            <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color: red;">Our Campaign</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
+                                    style="color: red;">Current Initiatives</a></li>
+                                <li><a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
+                                    style="color: red;">Recent Highlights</a></li>
+                            </ul>
+                        </div>
                    <a href="<?php echo home_url ('impact') ; ?>" class="nav-item nav-link"
                        style="color: red;">Impact</a>
                    <a href="<?php echo home_url ('our-supporters') ; ?>" class="nav-item nav-link"
@@ -131,34 +139,49 @@ get_header();
             <?php
             $campaigns = array(
                 array(
-                    'name' => 'Red Dot Campaign',
+                    'name' => 'World Menstrual Hygiene Day with HWWA ITBP',
                     'image' => 'placeholder-health.jpg',
                     'content' => 'Raising awareness about menstrual hygiene and sustainable practices through community engagement.'
                 ),
                 array(
-                    'name' => 'Women\'s Health Program',
+                    'name' => 'World Environment day',
                     'image' => 'placeholder-women.jpg',
                     'content' => 'Empowering women through health awareness programs and medical camps across NCR schools.'
                 ),
                 array(
-                    'name' => 'ITBP Health Seminar',
+                    'name' => 'National Pollution Control Day',
                     'image' => 'placeholder-education.jpg',
                     'content' => 'Conducting health seminars for women in armed forces with distinguished guests and experts.'
                 ),
                 array(
-                    'name' => 'Digital Literacy',
+                    'name' => 'World Menstrual Hygiene Day with NCW',
                     'image' => 'placeholder-education.jpg',
                     'content' => 'Bridging the digital divide through technology training and education programs.'
                 ),
                 array(
-                    'name' => 'Rural Health Camps',
+                    'name' => 'International Womens Day- Season 1',
                     'image' => 'placeholder-health.jpg',
                     'content' => 'Providing healthcare services and education to underprivileged rural communities.'
                 ),
                 array(
-                    'name' => 'Skill Development',
+                    'name' => 'Women Leadership Summit- Season 2',
                     'image' => 'placeholder-women.jpg',
                     'content' => 'Enhancing employability through vocational training and skill development programs.'
+                ),
+                array(
+                    'name' => 'World Wetland Day with UP State Biodiversity Board',
+                    'image' => 'placeholder-education.jpg',
+                    'content' => 'Empowering women with digital skills and computer literacy for better employment opportunities.'
+                ),
+                array(
+                    'name' => 'National Sparrow, Spider & Butterfly Day',
+                    'image' => 'placeholder-women.jpg',
+                    'content' => 'Supporting aspiring women entrepreneurs with business skills and mentorship programs.'
+                ),
+                array(
+                    'name' => 'tuberculosis Day',
+                    'image' => 'placeholder-health.jpg',
+                    'content' => 'Promoting physical and mental well-being through regular health check-ups and awareness sessions.'
                 )
             );
 

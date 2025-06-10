@@ -70,8 +70,16 @@ get_header();
                                     Mission</a>
                             </div>
                         </div>
-                        <a href="<?php echo home_url ('our-campaign') ; ?>" class="nav-item nav-link"
-                            style="color: red;">Our Campaign</a>
+                        <div class="nav-item dropdown">
+                            <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color: red;">Our Campaign</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
+                                    style="color: red;">Current Initiatives</a></li>
+                                <li><a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
+                                    style="color: red;">Recent Highlights</a></li>
+                            </ul>
+                        </div>
                         <a href="<?php echo home_url ('impact') ; ?>" class="nav-item nav-link"
                             style="color: red;">Impact</a>
                         <a href="<?php echo home_url ('our-supporters') ; ?>" class="nav-item nav-link active"

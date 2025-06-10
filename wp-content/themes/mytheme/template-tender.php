@@ -49,7 +49,7 @@ get_header();
                 </div>
             </div>
             <nav class="navbar navbar-light bg-light navbar-expand-xl">
-            <a href="https://shewingsfoundation.com/" class="navbar-brand ms-3">
+                <a href="https://shewingsfoundation.com/" class="navbar-brand ms-3">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/logo2.jpg"
                         alt="Shewings Logo" style="max-height: 60px; width: auto;">
                 </a>
@@ -68,8 +68,16 @@ get_header();
                                     style="color: red;">Vision & Mission</a>
                             </div>
                         </div>
-                        <a href="<?php echo home_url ('our-campaign') ; ?>" class="nav-item nav-link"
-                            style="color: red;">Our Campaign</a>
+                        <div class="nav-item dropdown">
+                            <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color: red;">Our Campaign</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
+                                    style="color: red;">Current Initiatives</a></li>
+                                <li><a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
+                                    style="color: red;">Recent Highlights</a></li>
+                            </ul>
+                        </div>
                         <a href="<?php echo home_url ('impact') ; ?>" class="nav-item nav-link"
                             style="color: red;">Impact</a>
                         <a href="<?php echo home_url ('our-supporters') ; ?>" class="nav-item nav-link"

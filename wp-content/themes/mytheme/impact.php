@@ -26,16 +26,16 @@ get_header();
         <div class="container px-0">
             <div class="topbar">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-8">
-                        <div class="topbar-info d-flex flex-wrap">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="topbar-info d-flex flex-wrap justify-content-center justify-content-md-start">
                             <a href="mailto:info@shewings.com" class="text-light me-4"><i
                                     class="fas fa-envelope text-white me-2"></i>info@shewings.com</a>
                             <a href="tel:8800633291" class="text-light"><i
                                     class="fas fa-phone-alt text-white me-2"></i>+91 8800633291</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="topbar-icon d-flex align-items-center justify-content-end">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="topbar-icon d-flex align-items-center justify-content-center justify-content-md-end mt-3 mt-md-0">
                             <a href="https://www.facebook.com/SheWingsOrganization/" target="blank"
                                 class="btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://x.com/theshewings" target="blank" class="btn-square text-white me-2"><i
@@ -50,7 +50,7 @@ get_header();
                 </div>
             </div>
             <nav class="navbar navbar-light bg-light navbar-expand-xl">
-            <a href="https://shewingsfoundation.com/" class="navbar-brand ms-3">
+                <a href="https://shewingsfoundation.com/" class="navbar-brand ms-3">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/logo2.jpg"
                         alt="Shewings Logo" style="max-height: 60px; width: auto;">
                 </a>
@@ -69,8 +69,16 @@ get_header();
                                     style="color: red;">Vision & Mission</a>
                             </div>
                         </div>
-                        <a href="<?php echo home_url ('our-campaign') ; ?>" class="nav-item nav-link"
-                            style="color: red;">Our Campaign</a>
+                        <div class="nav-item dropdown">
+                            <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="color: red;">Our Campaign</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
+                                    style="color: red;">Current Initiatives</a></li>
+                                <li><a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
+                                    style="color: red;">Recent Highlights</a></li>
+                            </ul>
+                        </div>
                         <a href="<?php echo home_url ('impact') ; ?>" class="nav-item nav-link active"
                             style="color: red;">Impact</a>
                         <a href="<?php echo home_url ('our-supporters') ; ?>" class="nav-item nav-link"
@@ -121,33 +129,33 @@ get_header();
     </div>
     <!-- Header End -->
 
-    <div class="container-fluid about  py-5">
+    <div class="container-fluid about py-5">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-xl-5">
+                <div class="col-xl-5 col-lg-6 col-md-12">
                     <div class="h-100">
-                        <img src="<?php echo esc_url ( get_template_directory_uri () ); ?>/img/about-2.jpg"
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/about-2.jpg"
                             class="img-fluid w-100 h-100" alt="Image">
                     </div>
                 </div>
-                <div class="col-xl-7">
+                <div class="col-xl-7 col-lg-6 col-md-12">
                     <!-- <h5 class="text-uppercase text-primary">About Us</h5> -->
-                    <h1 class="mb-4" style="color:#ec1f27">Founder’s Note</h1>
+                    <h1 class="mb-4" style="color:#ec1f27">Founder's Note</h1>
                     <p class="fs-5 mb-4" style="text-align: justify;"> SHEWings organization began with a simple idea:
                         everyone deserves access to essential healthcare knowledge and resources. Throughout my journey,
-                        I’ve seen how the lack of awareness and resources impacts lives, particularly for women and
-                        underserved communities. That’s why I founded SHEWings—to bridge this gap and create a platform
+                        I've seen how the lack of awareness and resources impacts lives, particularly for women and
+                        underserved communities. That's why I founded SHEWings—to bridge this gap and create a platform
                         for education, support, and empowerment.
                     </p>
 
                     <p class="fs-5 mb-4" style="text-align: justify;">At SHEWings, our mission is clear: empower
                         individuals to take charge of their
-                        health with confidence and dignity. We’re breaking down stigmas, fostering open conversations,
-                        and providing resources where they’re needed most. Together, we can create a world where health
+                        health with confidence and dignity. We're breaking down stigmas, fostering open conversations,
+                        and providing resources where they're needed most. Together, we can create a world where health
                         and knowledge go hand in hand for everyone.
                     </p>
                     <p class="fs-5 mb-4" style="text-align: justify;">Thank you for joining us on this journey. With
-                        your support, we’re creating
+                        your support, we're creating
                         lasting change, one step at a time.
                     </p>
 
@@ -238,7 +246,7 @@ get_header();
                                                 <p class="mb-4" style="color: gray;">At SHEWings, our work is fueled by
                                                     compassion and a commitment to real change.
                                                     We believe that lasting impact comes from consistent, compassionate
-                                                    efforts to empower those in need Whether it’s through a simple
+                                                    efforts to empower those in need Whether it's through a simple
                                                     workshop or an extensive health campaign, our focus remains on
                                                     delivering support that respects individual dignity and
                                                     creates meaningful change.
@@ -260,8 +268,8 @@ get_header();
                                                 <h5 class="text-uppercase mb-3">Bridging the Healthcare Knowledge Gap
                                                 </h5>
                                                 <p class="mb-4">SHEWings Foundation was established to bridge a gap
-                                                    that’s often overlooked—the gap in healthcare knowledge,
-                                                    particularly concerning women’s health. We realized that for many,
+                                                    that's often overlooked—the gap in healthcare knowledge,
+                                                    particularly concerning women's health. We realized that for many,
                                                     especially those in marginalized communities, access to accurate
                                                     health information and
                                                     quality products was not a given. Too often, myths and
@@ -364,20 +372,20 @@ get_header();
     <!--            </div>-->
     <!--            <div class="col-xl-7">-->
     <!--                <h5 class="text-uppercase text-primary">About Us</h5>-->
-    <!--                <h1 class="mb-4">Founder’s Note</h1>-->
+    <!--                <h1 class="mb-4">Founder's Note</h1>-->
     <!--                <p class="fs-5 mb-4">Welcome to SHEWings Foundation. This organization began with a simple idea:-->
     <!--                    everyone deserves access to essential healthcare knowledge and resources. Throughout my journey,-->
-    <!--                    I’ve seen how the lack of awareness and resources impacts lives, particularly for women and-->
-    <!--                    underserved communities. That’s why I founded SHEWings—to bridge this gap and create a platform-->
+    <!--                    I've seen how the lack of awareness and resources impacts lives, particularly for women and-->
+    <!--                    underserved communities. That's why I founded SHEWings—to bridge this gap and create a platform-->
     <!--                    for education, support, and empowerment.-->
     <!--                </p>-->
 
     <!--                <p class="fs-5 mb-4">At SHEWings, our mission is clear: empower individuals to take charge of their-->
-    <!--                    health with confidence and dignity. We’re breaking down stigmas, fostering open conversations,-->
-    <!--                    and providing resources where they’re needed most. Together, we can create a world where health-->
+    <!--                    health with confidence and dignity. We're breaking down stigmas, fostering open conversations,-->
+    <!--                    and providing resources where they're needed most. Together, we can create a world where health-->
     <!--                    and knowledge go hand in hand for everyone.-->
     <!--                </p>-->
-    <!--                <p class="fs-5 mb-4">Thank you for joining us on this journey. With your support, we’re creating-->
+    <!--                <p class="fs-5 mb-4">Thank you for joining us on this journey. With your support, we're creating-->
     <!--                    lasting change, one step at a time.-->
     <!--                </p>-->
 
@@ -468,7 +476,7 @@ get_header();
                                                 <p class="mb-4" style="color: gray;">At SHEWings, our work is fueled by
                                                     compassion and a commitment to real change.
                                                     We believe that lasting impact comes from consistent, compassionate
-                                                    efforts to empower those in need Whether it’s through a simple
+                                                    efforts to empower those in need Whether it's through a simple
                                                     workshop or an extensive health campaign, our focus remains on
                                                     delivering support that respects individual dignity and
                                                     creates meaningful change.
@@ -490,8 +498,8 @@ get_header();
                                                 <h5 class="text-uppercase mb-3">Bridging the Healthcare Knowledge Gap
                                                 </h5>
                                                 <p class="mb-4">SHEWings Foundation was established to bridge a gap
-                                                    that’s often overlooked—the gap in healthcare knowledge,
-                                                    particularly concerning women’s health. We realized that for many,
+                                                    that's often overlooked—the gap in healthcare knowledge,
+                                                    particularly concerning women's health. We realized that for many,
                                                     especially those in marginalized communities, access to accurate
                                                     health information and
                                                     quality products was not a given. Too often, myths and
@@ -582,7 +590,6 @@ get_header();
 
     <div class="container mt-4">
         <h2 class="display-6 text-center mb-4" style="color:#ec1f27">Our Core Areas of Impact</h2>
-        <!-- Moved Outside row -->
         <div class="row justify-content-center g-4">
             <!-- Girl Child Education -->
             <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
@@ -613,15 +620,15 @@ get_header();
                 </div>
             </div>
 
-            <!-- Women’s Health and Hygiene -->
+            <!-- Women's Health and Hygiene -->
             <div class="col-lg-4 col-md-6 col-sm-12 d-flex card-effect">
                 <div class="p-4 text-center w-100"
                     style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
                     <a href="#" class="h5 d-block mb-3 text-sm-start"
-                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">Women’s Health and
+                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">Women's Health and
                         Hygiene</a>
                     <p class="text-sm-start;" style="text-align: justify;">
-                        We advocate for women’s health and menstrual hygiene. We conduct awareness campaigns and provide
+                        We advocate for women's health and menstrual hygiene. We conduct awareness campaigns and provide
                         affordable access to essential products.
                     </p>
                 </div>
@@ -677,12 +684,12 @@ get_header();
 
     <!-- Counter Start -->
     <div class="container-fluid counter py-5"
-        style="background:#ec1f27 ;url(<?php echo esc_url ( get_template_directory_uri () ); ?> center center; background-size: cover;">
+        style="background:#ec1f27 ;url(<?php echo esc_url(get_template_directory_uri()); ?> center center; background-size: cover;">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5" style="max-width: 800px;">
                 <h5 class="text-uppercase text-primary">Our Impact</h5>
                 <p class="text-white mb-0">Since our founding, SHEWings Foundation has made a measurable impact across
-                    communities, both urban and rural. With our focus on women’s health, education, and accessibility
+                    communities, both urban and rural. With our focus on women's health, education, and accessibility
                 </p>
             </div>
             <div class="row g-4">
@@ -691,7 +698,6 @@ get_header();
                         <i class="fas fa-thumbs-up fa-4x text-white"></i>
                         <h3 class="text-white my-4">Reached over</h3>
                         <div class="counter-counting">
-                            <!--style="font-size: 30px;border-style: none;">-->
                             <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">3,000,000</span>
                             <span class="h1 fw-bold text-primary">+ Individuals</span>
                         </div>
@@ -750,7 +756,7 @@ get_header();
             <div class="container mt-4">
                 <div class="row justify-content-center gap-4">
                     <!--Transforming Lives Through Health Education -->
-                    <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
+                    <div class="col-md-5 col-sm-12 p-4 d-flex flex-column align-items-center card-effect"
                         style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
                         <div class="service-item text-center">
                             <div class="service-link">
@@ -769,7 +775,7 @@ get_header();
 
 
                     <!-- Bridging the Gap with Essential Resources -->
-                    <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
+                    <div class="col-md-5 col-sm-12 p-4 d-flex flex-column align-items-center card-effect"
                         style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
                         <div class="service-item text-center">
                             <div class="service-link">
@@ -790,7 +796,7 @@ get_header();
             <div class="container mt-4">
                 <div class="row justify-content-center gap-4">
                     <!-- Building Strong, Health-Conscious Communities -->
-                    <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
+                    <div class="col-md-5 col-sm-12 p-4 d-flex flex-column align-items-center card-effect"
                         style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
                         <div class="service-item text-center">
                             <div class="service-link">
@@ -809,7 +815,7 @@ get_header();
 
 
                     <!-- Stories of Change -->
-                    <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
+                    <div class="col-md-5 col-sm-12 p-4 d-flex flex-column align-items-center card-effect"
                         style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
                         <div class="service-item text-center">
                             <div class="service-link">

@@ -63,7 +63,7 @@ get_header();
                         <a href="<?php echo home_url () ; ?>" class="nav-item nav-link active" data-bs-toggle="collapse"
                             data-bs-target="#navbarCollapse" data-bs-dismiss="collapse" style="color: red;">Home</a>
                         <div class="nav-item dropdown">
-                            <a href="<?php echo home_url('about-us-2'); ?>" class="nav-link dropdown-toggle"
+                            <a href="<?php echo home_url('about-us'); ?>" class="nav-link dropdown-toggle"
                                 style="color: red;">About
                                 Us</a>
                             <div class="dropdown-menu">
@@ -75,13 +75,13 @@ get_header();
                         </div>
                         <div class="nav-item dropdown">
                             <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle"
-                                style="color: red;">Our Campaign</a>
-                            <div class="dropdown-menu">
-                                <a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
-                                    style="color: red;">Ongoing Project</a>
-                                <a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
-                                    style="color: red;">One Day</a>
-                            </div>
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: red;">Our Campaign</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
+                                        style="color: red;">Current Initiatives</a></li>
+                                <li><a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
+                                        style="color: red;">Recent Highlights</a></li>
+                            </ul>
                         </div>
 
                         <a href="<?php echo home_url('impact'); ?>" class="nav-item nav-link" data-bs-toggle="collapse"
@@ -193,7 +193,7 @@ get_header();
             <!-- About Start -->
             <div class="container-fluid about  py-5">
                 <div class="container py-5">
-                    <div class="row g-5 gx-4">
+                    <div class="row g-5 gx-4" style="padding: 1rem; margin: 1rem;">
                         <div class="col-xl-6 about-box"
                             style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; padding: 20px;">
                             <div class="h-100">
@@ -731,7 +731,8 @@ get_header();
                 </div>
             </div>
             <!-- Counter End -->
-
+<br>
+<br>
             <!-- Services Start -->
             <div class="container-fluid service py-5 bg-light" style="background-color: #f2f2f2;">
                 <div class="container py-5">
@@ -834,6 +835,8 @@ get_header();
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
             <!-- Services End -->
 
             <!-- Four Pillars Start -->

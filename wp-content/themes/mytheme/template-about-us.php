@@ -49,7 +49,7 @@ get_header();
                 </div>
             </div>
             <nav class="navbar navbar-light bg-light navbar-expand-xl">
-            <a href="https://shewingsfoundation.com/" class="navbar-brand ms-3">
+                <a href="https://shewingsfoundation.com/" class="navbar-brand ms-3">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/logo2.jpg"
                         alt="Shewings Logo" style="max-height: 60px; width: auto;">
                 </a>
@@ -59,34 +59,37 @@ get_header();
                 </button>
                 <div class="collapse navbar-collapse bg-light text-danger" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="<?php echo home_url () ; ?>" class="nav-item nav-link" style="color: red;">Home</a>
+                        <a href="<?php echo home_url () ; ?>" class="nav-item nav-link active" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse" data-bs-dismiss="collapse" style="color: red;">Home</a>
                         <div class="nav-item dropdown">
                             <a href="<?php echo home_url('about-us-2'); ?>" class="nav-link dropdown-toggle"
                                 style="color: red;">About
                                 Us</a>
                             <div class="dropdown-menu">
                                 <a href="<?php echo home_url('mission'); ?>" class="dropdown-item"
-                                    style="color: red;">Vision &
+                                    data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                                    data-bs-dismiss="collapse" style="color: red;">Vision &
                                     Mission</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle"
+                            <a href="<?php echo home_url('our-campaign'); ?>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
                                 style="color: red;">Our Campaign</a>
-                            <div class="dropdown-menu">
-                                <a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
-                                    data-bs-toggle="collapse" data-bs-target="#navbarCollapse" data-bs-dismiss="collapse"
-                                    style="color: red;">Ongoing Project</a>
-                                <a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
-                                    data-bs-toggle="collapse" data-bs-target="#navbarCollapse" data-bs-dismiss="collapse"
-                                    style="color: red;">One Day</a>
-                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo home_url('ongoing-project'); ?>" class="dropdown-item"
+                                    style="color: red;">Current Initiatives</a></li>
+                                <li><a href="<?php echo home_url('one-day'); ?>" class="dropdown-item"
+                                    style="color: red;">Recent Highlights</a></li>
+                            </ul>
                         </div>
-                        <a href="<?php echo home_url ('impact') ; ?>" class="nav-item nav-link"
-                            style="color: red;">Impact</a>
+
+                        <a href="<?php echo home_url('impact'); ?>" class="nav-item nav-link" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse" data-bs-dismiss="collapse" style="color: red;">Impact</a>
                         <a href="<?php echo home_url ('our-supporters') ; ?>" class="nav-item nav-link"
+                            data-bs-toggle="collapse" data-bs-target="#navbarCollapse" data-bs-dismiss="collapse"
                             style="color: red;">Our Supporters</a>
                         <a href="<?php echo home_url ('tenders') ; ?>" class="nav-item nav-link"
+                            data-bs-toggle="collapse" data-bs-target="#navbarCollapse" data-bs-dismiss="collapse"
                             style="color: red;">Tender</a>
 
 
@@ -101,228 +104,234 @@ get_header();
                             </div>
                         </div> -->
                         <a href="<?php echo home_url ('contact-us') ; ?>" class="nav-item nav-link"
+                            data-bs-toggle="collapse" data-bs-target="#navbarCollapse" data-bs-dismiss="collapse"
                             style="color: red;">Contact Us</a>
-                        <a href="<?php echo home_url('donation'); ?>" class="nav-item nav-link" style="color: red;">
-                            Donate Us </a>
+                        <a href="<?php echo home_url ('donation') ; ?>" class="nav-item nav-link"
+                            data-bs-toggle="collapse" data-bs-target="#navbarCollapse" data-bs-dismiss="collapse"
+                            style="color: red;">Donate Us</a>
                     </div>
                     <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
                         <a href="<?php echo esc_url(get_template_directory_uri()); ?>/documents/ShewingsFoundation_deck.pdf"
-                            class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3">SHEWings
+                            class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse" data-bs-dismiss="collapse">SHEWings
                             Profile</a>
                     </div>
                 </div>
             </nav>
-        </div>
-    </div>
 
-
-    <!-- Header Start -->
-    <div class="container-fluid bg-breadcrumb3">
-        <div class="container text-center py-5" style="max-width: 900px;">
-            <!--<h3 class="text-white display-3 mb-4">About Us</h1>-->
-            <!--    <p class="fs-5 text-white mb-4">Empowering Change, One Step at a Time-->
-            <!--    </p>-->
-            <!--    <ol class="breadcrumb justify-content-center mb-0">-->
-            <!--        <li class="breadcrumb-item"><a href="index.html">Home</a></li>-->
-            <!--        <li class="breadcrumb-item"><a href="#">Pages</a></li>-->
-            <!--        <li class="breadcrumb-item active text-white">About Us</li>-->
-            <!--    </ol>-->
-        </div>
-    </div>
-    <!-- Header End -->
-
-    <!-- About Start -->
-    <div class="container-fluid about  py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-xl-5">
-                    <div class="h-100">
-                        <img src="<?php echo esc_url ( get_template_directory_uri () ); ?>/img/about-3.jpg"
-                            class="img-fluid w-100 h-100" alt="About">
-                    </div>
+            <!-- Header Start -->
+            <div class="container-fluid bg-breadcrumb3">
+                <div class="container text-center py-5" style="max-width: 900px;">
+                    <!--<h3 class="text-white display-3 mb-4">About Us</h1>-->
+                    <!--    <p class="fs-5 text-white mb-4">Empowering Change, One Step at a Time-->
+                    <!--    </p>-->
+                    <!--    <ol class="breadcrumb justify-content-center mb-0">-->
+                    <!--        <li class="breadcrumb-item"><a href="index.html">Home</a></li>-->
+                    <!--        <li class="breadcrumb-item"><a href="#">Pages</a></li>-->
+                    <!--        <li class="breadcrumb-item active text-white">About Us</li>-->
+                    <!--    </ol>-->
                 </div>
-                <div class="col-xl-7">
-                    <!--<h5 class="text-uppercase" style="color:  #000000">About Us</h5>-->
-                    <h1 class="mb-4" style="color:#ec1f27">About SHEWings Foundation</h1>
-                    <p class="fs-5 mb-4" style="text-align: justify;">At SHEWings Foundation, we believe
-                        that access to
-                        health education and
-                        essential resources should be a universal right. Our foundation was created to
-                        address the
-                        deep-rooted lack of healthcare awareness, especially in areas where
-                        conversations around
-                        menstrual health,
-                        reproductive health, and maternal wellness are often limited or stigmatized.
-                        Founded with a
-                        vision of transforming lives through knowledge,
-                        SHEWings empowers individuals by making healthcare resources, support, and
-                        guidance available to
-                        all—regardless of social or economic background.
+            </div>
+            <!-- Header End -->
 
-                    </p>
-                    <div class="tab-class bg-secondary p-4">
-                        <ul class="nav d-flex mb-2">
-                            <li class="nav-item mb-3">
-                                <a class="d-flex py-2 text-center bg-white active" data-bs-toggle="pill" href="#tab-1">
-                                    <span class="text-dark" style="width: 150px;">Story</span>
-                                </a>
-                            </li>
-                            <!--<li class="nav-item mb-3">-->
-                            <!--    <a class="d-flex py-2 mx-3 text-center bg-white" data-bs-toggle="pill" href="#tab-2">-->
-                            <!--        <span class="text-dark" style="width: 150px;">Mission</span>-->
-                            <!--    </a>-->
-                            <!--</li>-->
-                            <!--<li class="nav-item mb-3">-->
-                            <!--    <a class="d-flex py-2 text-center bg-white" data-bs-toggle="pill" href="#tab-3">-->
-                            <!--        <span class="text-dark" style="width: 150px;">Vision</span>-->
-                            <!--    </a>-->
-                            <!--</li>-->
-                            <!-- <li class="nav-item mb-3">
+            <!-- About Start -->
+            <div class="container-fluid about  py-5">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-xl-5">
+                            <div class="h-100">
+                                <img src="<?php echo esc_url ( get_template_directory_uri () ); ?>/img/about-3.jpg"
+                                    class="img-fluid w-100 h-100" alt="About">
+                            </div>
+                        </div>
+                        <div class="col-xl-7">
+                            <!--<h5 class="text-uppercase" style="color:  #000000">About Us</h5>-->
+                            <h1 class="mb-4" style="color:#ec1f27">About SHEWings Foundation</h1>
+                            <p class="fs-5 mb-4" style="text-align: justify;">At SHEWings Foundation, we believe
+                                that access to
+                                health education and
+                                essential resources should be a universal right. Our foundation was created to
+                                address the
+                                deep-rooted lack of healthcare awareness, especially in areas where
+                                conversations around
+                                menstrual health,
+                                reproductive health, and maternal wellness are often limited or stigmatized.
+                                Founded with a
+                                vision of transforming lives through knowledge,
+                                SHEWings empowers individuals by making healthcare resources, support, and
+                                guidance available to
+                                all—regardless of social or economic background.
+
+                            </p>
+                            <div class="tab-class bg-secondary p-4">
+                                <ul class="nav d-flex mb-2">
+                                    <li class="nav-item mb-3">
+                                        <a class="d-flex py-2 text-center bg-white active" data-bs-toggle="pill"
+                                            href="#tab-1">
+                                            <span class="text-dark" style="width: 150px;">Story</span>
+                                        </a>
+                                    </li>
+                                    <!--<li class="nav-item mb-3">-->
+                                    <!--    <a class="d-flex py-2 mx-3 text-center bg-white" data-bs-toggle="pill" href="#tab-2">-->
+                                    <!--        <span class="text-dark" style="width: 150px;">Mission</span>-->
+                                    <!--    </a>-->
+                                    <!--</li>-->
+                                    <!--<li class="nav-item mb-3">-->
+                                    <!--    <a class="d-flex py-2 text-center bg-white" data-bs-toggle="pill" href="#tab-3">-->
+                                    <!--        <span class="text-dark" style="width: 150px;">Vision</span>-->
+                                    <!--    </a>-->
+                                    <!--</li>-->
+                                    <!-- <li class="nav-item mb-3">
                                 <a class="d-flex py-2 text-center bg-white" data-bs-toggle="pill" href="#tab-4">
                                     <span class="text-dark" style="width: 150px;">Story</span>
                                 </a>
                             </li> -->
-                        </ul>
-                        <div class="tab-content">
-                            <div id="tab-1" class="tab-pane fade show p-0 active">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="d-flex">
-                                            <div class="text-start my-auto">
-                                                <h5 class="text-uppercase mb-3 mt-3" style="color:#ec1f27"
-                                                    target="blank">Click on the
-                                                    links below to
-                                                    go
-                                                    through
-                                                    our journey</h5>
-                                                <ul>
-                                                    <li>
-                                                        <p><a href="https://zeenews.india.com/hindi/india/delhi-ncr-haryana/navratri-2024-noida-womens-health-checkup-awareness-campaign/2468965"
-                                                                style="color:#fff;" target="blank">Woman
-                                                                Health Awareness Programme</a></p>
-                                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="d-flex">
+                                                    <div class="text-start my-auto">
+                                                        <h5 class="text-uppercase mb-3 mt-3" style="color:#ec1f27"
+                                                            target="blank">Click on the
+                                                            links below to
+                                                            go
+                                                            through
+                                                            our journey</h5>
+                                                        <ul>
+                                                            <li>
+                                                                <p><a href="https://zeenews.india.com/hindi/india/delhi-ncr-haryana/navratri-2024-noida-womens-health-checkup-awareness-campaign/2468965"
+                                                                        style="color:#fff;" target="blank">Woman
+                                                                        Health Awareness Programme</a></p>
+                                                            </li>
 
-                                                    <li>
-                                                        <p><a href="https://www.facebook.com/SheWingsOrganization/videos/393108828550105/?vh=e&mibextid=wwXIfr&rdid=p7usc9jA8fXbxQnh#"
-                                                                style="color:#fff;"
-                                                                target="blank">#DonateOldBraPanty</a>
-                                                        </p>
-                                                    </li>
-                                                    <li>
-                                                        <p><a href="https://www.youtube.com/watch?v=9eRg1K3g0Qk&ab_channel=SheWings"
-                                                                style="color:#fff;" target="blank">#RedDotCampaign</a>
-                                                        </p>
-                                                    </li>
-                                                    <li>
-                                                        <p><a href="https://www.youtube.com/watch?v=0ZYfHVczQKw&ab_channel=SheWings"
-                                                                style="color:#fff;" target="blank">#YesIBleed</a>
-                                                        </p>
-                                                    </li>
-                                                    <li>
-                                                        <p><a href="https://www.youtube.com/watch?v=ArhhcGclJcY"
-                                                                style="color:#fff;" target="blank">#FeedTheFuture</a>
-                                                        <div class="d-flex align-items-center justify-content-start">
-                                                            <a class="btn btn-primary text-white py-2 px-4"
-                                                                href="https://www.youtube.com/watch?v=jnxrBBCg8Kg"
-                                                                style="background-color: #3c4142;" target="blank;">Watch
-                                                                Another Video</a>
-                                                        </div>
-                                                        </p>
-                                                    </li>
+                                                            <li>
+                                                                <p><a href="https://www.facebook.com/SheWingsOrganization/videos/393108828550105/?vh=e&mibextid=wwXIfr&rdid=p7usc9jA8fXbxQnh#"
+                                                                        style="color:#fff;"
+                                                                        target="blank">#DonateOldBraPanty</a>
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p><a href="https://www.youtube.com/watch?v=9eRg1K3g0Qk&ab_channel=SheWings"
+                                                                        style="color:#fff;"
+                                                                        target="blank">#RedDotCampaign</a>
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p><a href="https://www.youtube.com/watch?v=0ZYfHVczQKw&ab_channel=SheWings"
+                                                                        style="color:#fff;"
+                                                                        target="blank">#YesIBleed</a>
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p><a href="https://www.youtube.com/watch?v=ArhhcGclJcY"
+                                                                        style="color:#fff;"
+                                                                        target="blank">#FeedTheFuture</a>
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-start">
+                                                                    <a class="btn btn-primary text-white py-2 px-4"
+                                                                        href="https://www.youtube.com/watch?v=jnxrBBCg8Kg"
+                                                                        style="background-color: #3c4142;"
+                                                                        target="blank;">Watch
+                                                                        Another Video</a>
+                                                                </div>
+                                                                </p>
+                                                            </li>
 
-                                                </ul>
-                                                <!-- <div class="d-flex align-items-center justify-content-start">
+                                                        </ul>
+                                                        <!-- <div class="d-flex align-items-center justify-content-start">
                                                     <a class="btn-hover-bg btn btn-primary text-white py-2 px-4"
                                                         href="#">Read More</a>
                                                 </div> -->
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div id="tab-2" class="tab-pane fade show p-0">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="d-flex">
-                                            <div class="text-start my-auto">
-                                                <h5 class="text-uppercase mb-3">A
-                                                    Better Tomorrow for comming
-                                                    generations</h5>
-                                                <p class="mb-4">Our mission is
-                                                    rooted in the belief that
-                                                    everyone
-                                                    deserves to feel informed and
-                                                    empowered about their health,
-                                                    wellbeing, environment,
-                                                    sustainability and mental
-                                                    Health. We aim
-                                                    to remove the barriers that
-                                                    prevent
-                                                    people from accessing
-                                                    reliable health resources and
-                                                    understanding
-                                                    their own wellness. By
-                                                    focusing on inclusivity and
-                                                    dignity, we
-                                                    strive
-                                                    to create lasting change,
-                                                    offering not only health
-                                                    education but also the tools
-                                                    needed to
-                                                    improve well-being for
-                                                    generations to come.
-                                                </p>
-                                                <!-- <div class="d-flex align-items-center justify-content-start">
+                                    <div id="tab-2" class="tab-pane fade show p-0">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="d-flex">
+                                                    <div class="text-start my-auto">
+                                                        <h5 class="text-uppercase mb-3">A
+                                                            Better Tomorrow for comming
+                                                            generations</h5>
+                                                        <p class="mb-4">Our mission is
+                                                            rooted in the belief that
+                                                            everyone
+                                                            deserves to feel informed and
+                                                            empowered about their health,
+                                                            wellbeing, environment,
+                                                            sustainability and mental
+                                                            Health. We aim
+                                                            to remove the barriers that
+                                                            prevent
+                                                            people from accessing
+                                                            reliable health resources and
+                                                            understanding
+                                                            their own wellness. By
+                                                            focusing on inclusivity and
+                                                            dignity, we
+                                                            strive
+                                                            to create lasting change,
+                                                            offering not only health
+                                                            education but also the tools
+                                                            needed to
+                                                            improve well-being for
+                                                            generations to come.
+                                                        </p>
+                                                        <!-- <div class="d-flex align-items-center justify-content-start">
                                                     <a class="btn-hover-bg btn btn-primary text-white py-2 px-4"
                                                         href="#">Read More</a>
                                                 </div> -->
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div id="tab-3" class="tab-pane fade show p-0">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="d-flex">
-                                            <div class="text-start my-auto">
-                                                <h5 class="text-uppercase mb-3">
-                                                    Affordable and Adaptive
-                                                    healthcare
-                                                    services for all</h5>
-                                                <p class="mb-4">At SHEWings, our
-                                                    work is fueled by compassion
-                                                    and a
-                                                    commitment to real change.
-                                                    We believe that lasting
-                                                    impact comes from consistent,
-                                                    compassionate
-                                                    efforts to empower those in
-                                                    need Whether it's through a
-                                                    simple
-                                                    workshop or an extensive
-                                                    health campaign, our focus
-                                                    remains on
-                                                    delivering support that
-                                                    respects individual dignity
-                                                    and
-                                                    creates meaningful change.
-                                                    SHEWings Organize massive
-                                                    woman health
-                                                    camps where consultation to
-                                                    treatment is provided.
-                                                </p>
-                                                <!-- <div class="d-flex align-items-center justify-content-start">
+                                    <div id="tab-3" class="tab-pane fade show p-0">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="d-flex">
+                                                    <div class="text-start my-auto">
+                                                        <h5 class="text-uppercase mb-3">
+                                                            Affordable and Adaptive
+                                                            healthcare
+                                                            services for all</h5>
+                                                        <p class="mb-4">At SHEWings, our
+                                                            work is fueled by compassion
+                                                            and a
+                                                            commitment to real change.
+                                                            We believe that lasting
+                                                            impact comes from consistent,
+                                                            compassionate
+                                                            efforts to empower those in
+                                                            need Whether it's through a
+                                                            simple
+                                                            workshop or an extensive
+                                                            health campaign, our focus
+                                                            remains on
+                                                            delivering support that
+                                                            respects individual dignity
+                                                            and
+                                                            creates meaningful change.
+                                                            SHEWings Organize massive
+                                                            woman health
+                                                            camps where consultation to
+                                                            treatment is provided.
+                                                        </p>
+                                                        <!-- <div class="d-flex align-items-center justify-content-start">
                                                     <a class="btn-hover-bg btn btn-primary text-white py-2 px-4"
                                                         href="#">Read More</a>
                                                 </div> -->
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            </br>
-                            <!-- <div id="tab-4" class="tab-pane fade show p-0">
+                                    </br>
+                                    <!-- <div id="tab-4" class="tab-pane fade show p-0">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="d-flex">
@@ -348,125 +357,125 @@ get_header();
                                     </div>
                                 </div>
                             </div> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- About End -->
+            <!-- About End -->
 
-    <div class="container-fluid py-5" style=" object-fit: cover;">
+            <div class="container-fluid py-5" style=" object-fit: cover;">
 
-        <div class="container py-5 text-center">
-        <h2 class="display-1" style="color:#ec1f27">A Foundation Built on Action and Advocacy
-        </h2>
-            <div class="row justify-content-center">
-                <div class="container mt-4">
-                    <div class="row justify-content-center gap-4">
-                        <!-- Health Education -->
-                        <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
-                            style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                            <div class="service-item text-center">
-                                <div class="service-link">
-                                    <!-- <a href="#" class="h3 mb-3"
+                <div class="container py-5 text-center">
+                    <h2 class="display-1" style="color:#ec1f27">A Foundation Built on Action and Advocacy
+                    </h2>
+                    <div class="row justify-content-center">
+                        <div class="container mt-4">
+                            <div class="row justify-content-center gap-4">
+                                <!-- Health Education -->
+                                <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
+                                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                                    <div class="service-item text-center">
+                                        <div class="service-link">
+                                            <!-- <a href="#" class="h3 mb-3"
                                         style="color: red; border-bottom: 2px solid red; text-decoration: none;">Health
                                         Education</a> -->
+                                        </div>
+                                    </div>
+                                    <p class="mt-3" style="text-align: justify;">
+                                        SHEWings Foundation drives action and advocacy for lasting
+                                        health change. We collaborate
+                                        with experts and leaders to improve healthcare access, from
+                                        menstrual hygiene in schools
+                                        to workplace mental health programs. Rooted in research and
+                                        community input, our
+                                        initiatives address specific challenges, ensuring impactful,
+                                        tailored solutions for
+                                        diverse needs.
+                                    </p>
                                 </div>
-                            </div>
-                            <p class="mt-3" style="text-align: justify;">
-                                SHEWings Foundation drives action and advocacy for lasting
-                                health change. We collaborate
-                                with experts and leaders to improve healthcare access, from
-                                menstrual hygiene in schools
-                                to workplace mental health programs. Rooted in research and
-                                community input, our
-                                initiatives address specific challenges, ensuring impactful,
-                                tailored solutions for
-                                diverse needs.
-                            </p>
-                        </div>
 
-                        <!-- Resource Accessibility -->
-                        <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
-                            style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                            <div class="service-item text-center">
-                                <div class="service-link">
-                                    <!-- <a href="#" class="h3 mb-3"
+                                <!-- Resource Accessibility -->
+                                <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
+                                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                                    <div class="service-item text-center">
+                                        <div class="service-link">
+                                            <!-- <a href="#" class="h3 mb-3"
                                         style="color: red; border-bottom: 2px solid red; text-decoration: none;">Resource
                                         Accessibility</a> -->
+                                        </div>
+                                    </div>
+                                    <p class="mt-3" style="text-align: justify;">
+                                        Education is central to SHEWings Foundation. We empower
+                                        individuals with knowledge to
+                                        make informed health decisions through interactive, accessible
+                                        programs. Beyond
+                                        information, we promote critical thinking, self-care, and
+                                        community support. Our
+                                        resources help people understand health risks, improve
+                                        well-being, and find necessary
+                                        support. By focusing on education, we enable participants to
+                                        advocate for their own and
+                                        their community's health.
+                                    </p>
+                                </div>
+
+                                <!-- Community Advocacy and Partnerships -->
+                                <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
+                                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                                    <div class="service-item text-center">
+                                        <!-- <div class="service-link">
+                                    <a href="#" class="h3 mb-3"
+                                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">Community
+                                        Advocacy and Partnerships</a>
+                                </div> -->
+                                    </div>
+                                    <p class="mt-3" style="text-align: justify;">
+                                        SHEWings Foundation fosters supportive networks, uniting health
+                                        professionals,
+                                        educators, and advocates to drive meaningful change. These
+                                        connections provide guidance
+                                        and solidarity on the journey to better health.Our maternal
+                                        health programs link mothers
+                                        with experts and peer support, while our cancer awareness
+                                        campaigns create safe spaces
+                                        for shared experiences, learning, and practical support.
+                                    </p>
+                                </div>
+                                <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
+                                    style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
+                                    <div class="service-item text-center">
+                                        <!-- <div class="service-link">
+                                    <a href="#" class="h3 mb-3"
+                                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">Community
+                                        Advocacy and Partnerships</a>
+                                </div> -->
+                                    </div>
+                                    <p class="mt-3" style="text-align: justify;">
+                                        Join SHEWings Foundation in creating a healthier future. Get
+                                        involved through
+                                        volunteering, donations, or partnerships to expand health
+                                        education and well-being for
+                                        all.Explore our programs, see our impact, and be part of a
+                                        movement where knowledge and
+                                        compassion transform lives, one community at a time.
+                                    </p>
                                 </div>
                             </div>
-                            <p class="mt-3" style="text-align: justify;">
-                                Education is central to SHEWings Foundation. We empower
-                                individuals with knowledge to
-                                make informed health decisions through interactive, accessible
-                                programs. Beyond
-                                information, we promote critical thinking, self-care, and
-                                community support. Our
-                                resources help people understand health risks, improve
-                                well-being, and find necessary
-                                support. By focusing on education, we enable participants to
-                                advocate for their own and
-                                their community's health.
-                            </p>
                         </div>
 
-                        <!-- Community Advocacy and Partnerships -->
-                        <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
-                            style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                            <div class="service-item text-center">
-                                <!-- <div class="service-link">
-                                    <a href="#" class="h3 mb-3"
-                                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">Community
-                                        Advocacy and Partnerships</a>
-                                </div> -->
-                            </div>
-                            <p class="mt-3" style="text-align: justify;">
-                                SHEWings Foundation fosters supportive networks, uniting health
-                                professionals,
-                                educators, and advocates to drive meaningful change. These
-                                connections provide guidance
-                                and solidarity on the journey to better health.Our maternal
-                                health programs link mothers
-                                with experts and peer support, while our cancer awareness
-                                campaigns create safe spaces
-                                for shared experiences, learning, and practical support.
-                            </p>
-                        </div>
-                        <div class="col-md-5 p-4 d-flex flex-column align-items-center card-effect"
-                            style="color: black; border: 1px solid red; background-color: whitesmoke; border-radius: 10px;">
-                            <div class="service-item text-center">
-                                <!-- <div class="service-link">
-                                    <a href="#" class="h3 mb-3"
-                                        style="color: red; border-bottom: 2px solid red; text-decoration: none;">Community
-                                        Advocacy and Partnerships</a>
-                                </div> -->
-                            </div>
-                            <p class="mt-3" style="text-align: justify;">
-                                Join SHEWings Foundation in creating a healthier future. Get
-                                involved through
-                                volunteering, donations, or partnerships to expand health
-                                education and well-being for
-                                all.Explore our programs, see our impact, and be part of a
-                                movement where knowledge and
-                                compassion transform lives, one community at a time.
-                            </p>
-                        </div>
                     </div>
-                </div>
+                </div><br>
 
-            </div>
-        </div><br>
-
-        <!-- <div class="container-fluid py-5"
+                <!-- <div class="container-fluid py-5"
         style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); object-fit: cover;">
         <div class="container py-5 text-center">
             <div class="row justify-content-center">
                 <div>
                     <!-- <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
                     <h1 class="display-1">404</h1> -->
-        <!-- 
+                <!-- 
                     <h1 class="mb-4 text-dark">Our Commitment for the Future</h1>
                     <p class="mb-4 text-dark">Our mission is more than a statement—it's a lifelong commitment to
                         creating a world where health knowledge and resources are available to all. As we grow, we
@@ -478,11 +487,11 @@ get_header();
                         can create a future where health, dignity, and empowerment are a reality for everyone.</p>
 
                     <!-- <a class="btn btn-primary btn-hover-bg py-3 px-5" href="index.html">Go Back To Home</a> -->
-    </div>
+            </div>
 
-    </div>
+        </div>
 
 
 
-    <?php
+        <?php
 get_footer();
